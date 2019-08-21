@@ -10,10 +10,11 @@ const Colors = {
     light: '#EAE7DE',
   },
   secondary: {
-    regular: '#F4F4F4',
+    regular: '#F8F8F8',
     dark: '#74736E',
     light: '#FFFFFF',
   },
+  black: '#000'
 };
 
 export default Colors;

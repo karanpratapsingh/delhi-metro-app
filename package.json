@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
     "expo": "^34.0.1",
     "expo-font": "~6.0.1",
     "react": "16.8.3",

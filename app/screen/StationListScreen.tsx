@@ -4,6 +4,7 @@ import { SectionGrid } from 'react-native-super-grid';
 import { MetroLineSectionListData } from '../constants/FormattedData';
 import Colors from '../constants/Colors';
 import { responsiveWidth } from 'react-native-responsive-dimensions';
+import Typography from '../constants/Typography';
 
 console.log(MetroLineSectionListData);
 
@@ -29,31 +30,23 @@ const styles = StyleSheet.create({
         marginTop: 20,
     },
     itemContainer: {
-        // justifyContent: 'flex-end',
         borderRadius: 5,
         padding: 10,
-        // height: 150,
-        width: responsiveWidth(94),
+        marginHorizontal: 8,
         backgroundColor: Colors.secondary.regular
     },
     itemName: {
-        fontSize: 12,
-        color: Colors.primary.dark,
-        fontWeight: '600',
-    },
-    itemCode: {
-        fontWeight: '600',
-        fontSize: 12,
-        color: '#fff'
+        ...Typography.body,
+        color: Colors.black
     },
     sectionHeader: {
         flex: 1,
-        fontSize: 24,
-        fontWeight: '600',
+        ...Typography.heading,
         alignItems: 'center',
         color: '#636e72',
         backgroundColor: 'white',
-        padding: 10,
+        padding: 8,
+        paddingLeft: 20
     },
 });
 
