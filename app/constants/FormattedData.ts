@@ -66,12 +66,12 @@ export const MetroLineListData: MetroLineListType[] = [
     {
         title: 'Green Line',
         data: GreenLine,
-        colors: ['#a8ff78', '#78ffd6']
+        colors: ['#78ffd6', '#a8ff78']
     },
     {
         title: 'Green Branch',
         data: GreenBranch,
-        colors: ['#a8ff78', '#78ffd6']
+        colors: ['#78ffd6', '#a8ff78']        
     },
     {
         title: 'Violet Line',
