@@ -4,7 +4,15 @@
  * #Note: color and font size are defaulted as they can be overridden
  *        as required.
  */
-const Typography = {
+
+type TypographyType = {
+  heading: object,
+  subHeading: object,
+  body: object,
+  caption: object
+};
+
+const Typography: TypographyType = {
   heading: {
     fontSize: 28,
     fontFamily: 'AirbnbCereal-Bold',

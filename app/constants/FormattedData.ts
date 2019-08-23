@@ -27,9 +27,9 @@ import PinkBranch from '../static/metro-lines/branches/pink-branch.json';
 import OrangeLine from '../static/metro-lines/lines/orange.json';
 
 type MetroLineListType = {
-    title: String,
+    title: string,
     data: any,
-    colors: Array<string>
+    colors: string[]
 };
 
 export const MetroLineListData: MetroLineListType[] = [

@@ -1,26 +1,26 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { SectionGrid } from 'react-native-super-grid';
-import { MetroLineSectionListData } from '../constants/FormattedData';
+import { FlatGrid } from 'react-native-super-grid';
+import { MetroLineListData } from '../constants/FormattedData';
 import Colors from '../constants/Colors';
 import { responsiveWidth } from 'react-native-responsive-dimensions';
 import Typography from '../constants/Typography';
 
-console.log(MetroLineSectionListData);
+console.log(MetroLineListData);
 
 const StationListScreen = props => (
-    <SectionGrid
+    <FlatGrid
         itemDimension={responsiveWidth(100)}
-        sections={MetroLineSectionListData}
+        items={MetroLineListData}
         style={styles.gridView}
-        renderItem={({ item, section, index }) => (
+        renderItem={({ item }) => (
             <View style={styles.itemContainer}>
-                <Text style={styles.itemName}>{item['25'] || item['Hindi']}</Text>
+                <Text style={styles.itemName}>{item.title}</Text>
             </View>
         )}
-        renderSectionHeader={({ section }) => (
-            <Text style={styles.sectionHeader}>{section.title}</Text>
-        )}
+        // renderSectionHeader={({ section }) => (
+        //     <Text style={styles.sectionHeader}>{section.title}</Text>
+        // )}
     />
 );
 
