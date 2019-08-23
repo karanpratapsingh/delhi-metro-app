@@ -1,14 +1,26 @@
-import React from 'react';
-import { createBottomTabNavigator, createAppContainer } from 'react-navigation';
-import StationListScreen from '../screen/StationListScreen';
-import RouteFinderScreen from '../screen/RouteFinderScreen';
 import * as Icon from '@expo/vector-icons';
+import React from 'react';
+import { createAppContainer, createBottomTabNavigator, createStackNavigator } from 'react-navigation';
 import Colors from '../constants/Colors';
+import LineInfoScreen from '../screen/LineInfoScreen';
+import RouteFinderScreen from '../screen/RouteFinderScreen';
+import StationListScreen from '../screen/StationListScreen';
+
+const StackNavigator = createStackNavigator({
+    StationListScreen: {
+        screen: StationListScreen
+    },
+    LineInfoScreen: {
+        screen: LineInfoScreen
+    }
+}, {
+    headerMode: 'none'
+});
 
 const TabNavigator = createBottomTabNavigator({
 
-    StationListScreen: {
-        screen: StationListScreen,
+    StackNavigator: {
+        screen: StackNavigator,
         navigationOptions: {
             tabBarIcon: ({ focused, tintColor }) => <Icon.Feather name={'list'} color={tintColor} size={30} />
         }
@@ -20,6 +32,7 @@ const TabNavigator = createBottomTabNavigator({
         }
     }
 }, {
+    
     tabBarOptions: {
         activeTintColor: Colors.primary.regular,
         inactiveTintColor: Colors.secondary.dark,
