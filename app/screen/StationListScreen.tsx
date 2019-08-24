@@ -17,7 +17,7 @@ const StationListScreen = () => {
     return (
         <>
             <View style={{ paddingVertical: 10, paddingHorizontal: 20 }}>
-                <Text style={{ ...Typography.heading, }}>Metro Lines</Text>
+                <Text style={{ ...Typography.heading, fontSize: 32 }}>Metro Lines</Text>
             </View>
             <FlatGrid
                 showsVerticalScrollIndicator={false}
