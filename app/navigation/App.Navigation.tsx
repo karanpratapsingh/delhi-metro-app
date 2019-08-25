@@ -5,6 +5,7 @@ import Colors from '../constants/Colors';
 import LineInfoScreen from '../screen/LineInfoScreen';
 import RouteFinderScreen from '../screen/RouteFinderScreen';
 import StationListScreen from '../screen/StationListScreen';
+import MapViewScreen from '../screen/MapViewScreen';
 
 const StackNavigator = createStackNavigator({
     StationListScreen: {
@@ -29,6 +30,12 @@ const TabNavigator = createBottomTabNavigator({
         screen: RouteFinderScreen,
         navigationOptions: {
             tabBarIcon: ({ focused, tintColor }) => <Icon.MaterialIcons name={'monetization-on'} color={tintColor} size={30} />
+        }
+    },
+    MapViewScreen: {
+        screen: MapViewScreen,
+        navigationOptions: {
+            tabBarIcon: ({ focused, tintColor }) => <Icon.MaterialIcons name={'map'} color={tintColor} size={30} />
         }
     }
 }, {
