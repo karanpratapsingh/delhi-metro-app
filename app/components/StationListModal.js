@@ -20,8 +20,14 @@ export default class StationListModal extends React.PureComponent {
         }));
     };
 
+    _onStationSelected = station => {
+
+        this.props.onStationSelected(station);
+        this.closeModal();
+    };
+
     renderItem = ({ item }) => (
-        <TouchableOpacity onPress={() => this.props.onStationSelected(item.value)} style={s.item}>
+        <TouchableOpacity onPress={() => this._onStationSelected(item.value)} style={s.item}>
             <Text style={s.item__name}>{item.value}</Text>
             <Text style={s.item__email}>{item.synonyms.join(', ')}</Text>
         </TouchableOpacity>
@@ -35,14 +41,12 @@ export default class StationListModal extends React.PureComponent {
         }
     };
 
-    openModal = () => {
-        if (this.modal.current) {
-            this.modal.current.open();
-        }
-    };
+    openModal = () => this.modal.current.open();
+
+    closeModal = () => this.modal.current.close();
 
     _listHeaderComponent = () => (
-        <View style={{flex: 1, justifyContent: 'center', padding: 10, paddingTop: 16, width: '100%', backgroundColor: Colors.secondary.light }}>
+        <View style={{ flex: 1, justifyContent: 'center', padding: 10, paddingTop: 16, width: '100%', backgroundColor: Colors.secondary.light }}>
             <TextInput
                 placeholder={'Search Stations...'}
                 style={{ ...Typography.body, backgroundColor: Colors.primary.light, borderRadius: 20, paddingHorizontal: 16, paddingVertical: 4, fontSize: 16 }}

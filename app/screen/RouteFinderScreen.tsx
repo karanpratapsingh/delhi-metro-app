@@ -1,24 +1,54 @@
 import LottieView from 'lottie-react-native';
-import React from 'react';
-import { StyleSheet, View } from 'react-native';
+import React, { useRef, useState } from 'react';
+import { StyleSheet, Text, TouchableOpacity, View, Dimensions } from 'react-native';
+import StationListModal from '../components/StationListModal';
+import Typography from '../constants/Typography';
+import Colors from '../constants/Colors';
 
 console.disableYellowBox = true;
+
+const LottieAnimationSource = require('../../assets/animations/map.json');
+const { width } = Dimensions.get('window');
+
 const RouteFinderScreen = () => {
 
-    return (
+    const startingPointModalRef = useRef(null);
+    const destinationModalRef = useRef(null);
 
+    const [startingPoint, setStartingPoint] = useState('');
+    const [destinationPoint, setDestinationPoint] = useState('');
+
+    return (
         <View style={styles.container}>
             <LottieView
+                autoPlay
                 ref={animation => {
                     this.animation = animation;
                 }}
-                autoPlay
-                style={{
-                    width: 400,
-                    height: 400,
-                }}
-                source={require('../../assets/animations/train.json')}
+                style={{ height: 200, width: 200 }}
+                source={LottieAnimationSource}
             />
+            <TouchableOpacity
+                onPress={() => startingPointModalRef.current.openModal()}
+                style={styles.locationContainer}>
+                <Text style={styles.locationText}>{startingPoint ? startingPoint : 'Select Current'}</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+                onPress={() => destinationModalRef.current.openModal()}
+                style={styles.locationContainer}>
+                <Text style={styles.locationText}>{destinationPoint ? destinationPoint : 'Select Destination'}</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity
+                onPress={() => alert(`YAY`)}
+                style={styles.startButtonContainer}>
+                <Text style={styles.startButtonText}>Let's Go</Text>
+            </TouchableOpacity>
+
+
+            <StationListModal onStationSelected={station => setStartingPoint(station)} ref={startingPointModalRef} />
+            <StationListModal onStationSelected={station => setDestinationPoint(station)} ref={destinationModalRef} />
         </View>
     );
 };
@@ -27,8 +57,36 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: 'center',
-        justifyContent: 'center'
-    }
+        paddingTop: 50
+    },
+    locationContainer: {
+        width: width * 0.6,
+        borderWidth: StyleSheet.hairlineWidth,
+        borderColor: Colors.primary.regular,
+        paddingVertical: 10,
+        paddingHorizontal: 16,
+        marginTop: 16,
+        borderRadius: 20
+    },
+    locationText: {
+        ...Typography.body,
+        fontSize: 16
+    },
+    startButtonContainer: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        width: width * 0.4,
+        paddingVertical: 10,
+        paddingHorizontal: 16,
+        marginTop: 24,
+        backgroundColor: Colors.primary.regular,
+        borderRadius: 20
+    },
+    startButtonText: {
+        ...Typography.body,
+        fontSize: 16,
+        color: Colors.secondary.light
+    },
 });
 
 export default RouteFinderScreen;
