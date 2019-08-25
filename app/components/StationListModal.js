@@ -36,9 +36,7 @@ export default class StationListModal extends React.PureComponent {
     onClosed = () => {
         const { onClosed } = this.props;
 
-        if (onClosed) {
-            onClosed();
-        }
+        if (onClosed) onClosed();
     };
 
     openModal = () => this.modal.current.open();
