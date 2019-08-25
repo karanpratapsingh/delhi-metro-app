@@ -12,6 +12,7 @@
     -> Orange (Airport Express Line)
  */
 
+import Stations from '../static/metro-stations/stations.json';
 
 import AquaLine from '../static/metro-lines/lines/aqua.json';
 import BlueLine from '../static/metro-lines/lines/blue.json';
@@ -31,6 +32,13 @@ type MetroLineListType = {
     data: any,
     colors: string[]
 };
+
+type StationListType = {
+    value: string,
+    synonyms: string[]
+};
+
+export const StationListData: StationListType[] = Stations; 
 
 export const MetroLineListData: MetroLineListType[] = [
     {
@@ -71,7 +79,7 @@ export const MetroLineListData: MetroLineListType[] = [
     {
         title: 'Green Branch',
         data: GreenBranch,
-        colors: ['#78ffd6', '#a8ff78']        
+        colors: ['#78ffd6', '#a8ff78']
     },
     {
         title: 'Violet Line',
