@@ -839,6 +839,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@dudigital/react-native-zoomable-view@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@dudigital/react-native-zoomable-view/-/react-native-zoomable-view-1.0.13.tgz#fb17a669682c0c1baf2897b1875bac3a0c851e60"
+  integrity sha512-liBIi5vqDtBzmCKQNAr8Anjhm4dmzLbifnRKQjO02ojd9qu150k711PehFsBQpKNtMkv6N5gUUcJIxEximhTMQ==
+  dependencies:
+    prop-types "^15.5.10"
+
 "@expo/vector-icons@^10.0.0", "@expo/vector-icons@^10.0.2":
   version "10.0.5"
   resolved "https://registry.yarnpkg.com/@expo/vector-icons/-/vector-icons-10.0.5.tgz#2464fd262613ad11c9b2d5c4227e85c164fcccf4"

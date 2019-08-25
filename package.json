@@ -8,6 +8,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@dudigital/react-native-zoomable-view": "^1.0.13",
     "@expo/vector-icons": "^10.0.0",
     "expo": "^34.0.1",
     "expo-blur": "~6.0.0",
