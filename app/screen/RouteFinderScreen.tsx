@@ -5,6 +5,7 @@ import StationListModal from '../components/StationListModal';
 import RouteResultModal from '../components/RouteResultModal';
 import Typography from '../constants/Typography';
 import Colors from '../constants/Colors';
+import { FontAwesome } from '@expo/vector-icons';
 
 console.disableYellowBox = true;
 
@@ -57,12 +58,14 @@ const RouteFinderScreen = () => {
                 onPress={() => startingPointModalRef.current.openModal()}
                 style={styles.locationContainer}>
                 <Text style={styles.locationText}>{startingPoint ? startingPoint : 'Select Current'}</Text>
+                {/* <FontAwesome name='dot-circle-o' color='red' size={20} /> */}
             </TouchableOpacity>
 
             <TouchableOpacity
                 onPress={() => destinationModalRef.current.openModal()}
                 style={styles.locationContainer}>
                 <Text style={styles.locationText}>{destinationPoint ? destinationPoint : 'Select Destination'}</Text>
+                {/* <FontAwesome name='dot-circle-o' color='green' size={20} /> */}
             </TouchableOpacity>
 
             <TouchableOpacity
@@ -71,9 +74,21 @@ const RouteFinderScreen = () => {
                 <Text style={styles.startButtonText}>Let's Go</Text>
             </TouchableOpacity>
 
-            <StationListModal onStationSelected={station => setStartingPoint(station)} ref={startingPointModalRef} />
-            <StationListModal onStationSelected={station => setDestinationPoint(station)} ref={destinationModalRef} />
-            <RouteResultModal routeResultData={routeResultData} ref={routeResultModalRef} />
+            <StationListModal
+                ref={startingPointModalRef}
+                onStationSelected={station => setStartingPoint(station)}
+            />
+            <StationListModal
+                ref={destinationModalRef}
+                onStationSelected={station => setDestinationPoint(station)}
+            />
+
+            <RouteResultModal
+                ref={routeResultModalRef}
+                from={startingPoint}
+                to={destinationPoint}
+                routeResultData={routeResultData}
+            />
 
         </View>
     );
@@ -86,6 +101,9 @@ const styles = StyleSheet.create({
         paddingTop: 50
     },
     locationContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
         width: width * 0.6,
         borderWidth: StyleSheet.hairlineWidth,
         borderColor: Colors.primary.regular,

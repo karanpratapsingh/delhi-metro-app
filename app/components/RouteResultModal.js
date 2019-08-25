@@ -4,6 +4,7 @@ import Modalize from 'react-native-modalize';
 import Typography from '../constants/Typography';
 import Colors from '../constants/Colors';
 import { StationListData } from '../constants/FormattedData';
+import Timeline from 'react-native-timeline-listview';
 
 export default class RouteResultModal extends React.PureComponent {
 
@@ -21,37 +22,47 @@ export default class RouteResultModal extends React.PureComponent {
 
     render() {
 
-        const { routeResultData: { time } } = this.props;
+        const { from, to, routeResultData: { path, time } } = this.props;
+
+        const pathTimeLineData = path.map(path => ({ title: path }));
 
         return (
             <Modalize
                 ref={this.modal}
                 keyboardAvoidingBehavior={'padding'}
                 onClosed={this.onClosed}
-                modalStyle={{ marginTop: 32, overflow: 'hidden' }}>
-                <Text>{time}</Text>
+                modalStyle={{ marginTop: 24, overflow: 'hidden' }}>
+
+                <View style={{ paddingVertical: 10, paddingHorizontal: 16, backgroundColor: '#eee' }}>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>From: {from}</Text>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>To: {to}</Text>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>ETA: {parseFloat(time).toFixed(2)} mins</Text>
+                </View>
+
+                <View style={{ flex: 1, marginTop: 5, paddingLeft: 5, paddingRight: 20 }}>
+                    <Timeline
+                        showTime={false}
+                        circleSize={20}
+                        showsVerticalScrollIndicator={false}
+                        circleColor={Colors.primary.regular}
+                        lineColor={Colors.primary.regular}
+                        titleStyle={{ ...Typography.body, fontSize: 16, paddingVertical: 5, color: Colors.secondary.light }}
+                        detailContainerStyle={{ marginBottom: 20, paddingHorizontal: 16, borderRadius: 5, backgroundColor: Colors.primary.regular }}
+                        data={pathTimeLineData}
+                        bounces={false}
+                        options={{
+                            showsVerticalScrollIndicator: false,
+                            style: { backgroundColor: 'transparent' },
+                            contentContainerStyle: { flexGrow: 1, marginTop: 10, marginBottom: 80 },
+                            removeClippedSubviews: false
+                        }}
+                    />
+                </View>
             </Modalize>
         );
     };
 };
 
-const s = StyleSheet.create({
-    item: {
-        alignItems: 'flex-start',
-        padding: 15,
-        borderBottomColor: '#f9f9f9',
-        borderBottomWidth: 1,
-    },
+const styles = StyleSheet.create({
 
-    item__name: {
-        fontSize: 16,
-
-        marginBottom: 5,
-    },
-
-    item__email: {
-        fontSize: 14,
-        fontWeight: '200',
-        color: '#666',
-    },
 });

@@ -31,7 +31,6 @@ const LineInfoScreen = () => {
                     data={displayData}
                     options={{
                         showsVerticalScrollIndicator: false,
-
                         style: { backgroundColor: 'transparent' },
                         contentContainerStyle: { flexGrow: 1 },
                         removeClippedSubviews: false
