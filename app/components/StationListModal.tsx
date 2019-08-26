@@ -45,6 +45,9 @@ export default class StationListModal extends React.PureComponent<StationListMod
     _listHeaderComponent = () => (
         <View style={{ flex: 1, justifyContent: 'center', padding: 10, paddingTop: 16, width: '100%', backgroundColor: Colors.secondary.light }}>
             <TextInput
+                autoFocus
+                autoCorrect={false}
+                autoCapitalize={'none'}
                 placeholder={'Search Stations...'}
                 style={{ ...Typography.body, backgroundColor: Colors.primary.light, borderRadius: 20, paddingHorizontal: 16, paddingVertical: 4, fontSize: 16 }}
                 value={this.state.searchQuery}
@@ -55,12 +58,18 @@ export default class StationListModal extends React.PureComponent<StationListMod
 
     render() {
 
-        
+        const { searchQuery } = this.state;
+        const FilteredStationListData = StationListData.filter(station => {
+
+            let { value } = station;
+
+            if (searchQuery === '') return station;
+            else if (value.toLowerCase().includes(searchQuery.toLowerCase())) return station;
+        });
 
         return (
             <Modalize
-                ref={this.modal as any}
-                adjustToContentHeight
+                ref={this.modal as any}                
                 keyboardAvoidingBehavior={'padding'}
                 modalStyle={styles.modal}>
 
@@ -68,7 +77,7 @@ export default class StationListModal extends React.PureComponent<StationListMod
                 <FlatGrid
                     showsVerticalScrollIndicator={false}
                     itemDimension={responsiveWidth(100)}
-                    items={StationListData}
+                    items={FilteredStationListData}
                     style={styles.gridView}
                     renderItem={this.renderItem}
                 />

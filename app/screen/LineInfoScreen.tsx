@@ -18,7 +18,6 @@ const LineInfoScreen = () => {
     return (
         <View style={styles.container}>
             <Text style={{ ...Typography.heading, fontSize: 32, paddingHorizontal: 20, paddingVertical: 10, color: colors[0] }}>{title}</Text>
-
             <View style={{ flex: 1, marginTop: 5, paddingLeft: 5, paddingRight: 20 }}>
                 <Timeline
                     showTime={false}
