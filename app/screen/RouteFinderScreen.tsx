@@ -1,11 +1,10 @@
 import LottieView from 'lottie-react-native';
 import React, { useRef, useState, useEffect } from 'react';
-import { StyleSheet, Text, TouchableOpacity, View, Dimensions } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, ActivityIndicator, View, Dimensions } from 'react-native';
 import StationListModal from '../components/StationListModal';
 import RouteResultModal from '../components/RouteResultModal';
 import Typography from '../constants/Typography';
 import Colors from '../constants/Colors';
-import { FontAwesome } from '@expo/vector-icons';
 
 console.disableYellowBox = true;
 
@@ -25,6 +24,7 @@ const RouteFinderScreen = () => {
     const [destinationPoint, setDestinationPoint] = useState('');
     const [requestUrl, setRequestUrl] = useState(InitialRequestUrl);
     const [routeResultData, setRouteResultData] = useState({ path: [], time: 0 });
+    const [isFetchingData, setFetchingData] = useState(false);
 
     const dispatchRequest = () => setRequestUrl(`${InitialRequestUrl}from=${startingPoint}&to=${destinationPoint}`);
 
@@ -32,12 +32,15 @@ const RouteFinderScreen = () => {
     useEffect(() => {
         const getShortestPath = async (): Promise<void> => {
             try {
+                setFetchingData(true);
                 const response = await fetch(requestUrl as RequestInfo);
                 const { path, time } = await response.json();
                 setRouteResultData({ path, time });
+                setFetchingData(false);
 
                 routeResultModalRef.current.openModal();
             } catch {
+                setFetchingData(false);
                 alert('Please select the destinations properly');
             }
         };
@@ -71,14 +74,19 @@ const RouteFinderScreen = () => {
             <TouchableOpacity
                 onPress={() => dispatchRequest()}
                 style={styles.startButtonContainer}>
-                <Text style={styles.startButtonText}>Let's Go</Text>
+                {
+                    isFetchingData ?
+                        <ActivityIndicator color={Colors.secondary.light} size={'small'} />
+                        :
+                        <Text style={styles.startButtonText}>Let's Go</Text>
+                }
             </TouchableOpacity>
 
             <StationListModal
                 ref={startingPointModalRef}
                 onStationSelected={station => setStartingPoint(station)}
             />
-            
+
             <StationListModal
                 ref={destinationModalRef}
                 onStationSelected={station => setDestinationPoint(station)}
