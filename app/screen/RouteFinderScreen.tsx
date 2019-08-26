@@ -9,8 +9,8 @@ import { FontAwesome } from '@expo/vector-icons';
 
 console.disableYellowBox = true;
 
-const LottieAnimationSource = require('../../assets/animations/map.json');
-const InitialRequestUrl = 'https://us-central1-delhimetroapi.cloudfunctions.net/route?';
+const LottieAnimationSource: NodeRequire = require('../../assets/animations/map.json');
+const InitialRequestUrl: string = 'https://us-central1-delhimetroapi.cloudfunctions.net/route?';
 
 const { width } = Dimensions.get('window');
 
@@ -30,9 +30,9 @@ const RouteFinderScreen = () => {
 
     useEffect(() => setDidMount(true), []);
     useEffect(() => {
-        const getShortestPath = async () => {
+        const getShortestPath = async (): Promise<void> => {
             try {
-                const response = await fetch(requestUrl);
+                const response = await fetch(requestUrl as RequestInfo);
                 const { path, time } = await response.json();
                 setRouteResultData({ path, time });
 
@@ -52,7 +52,7 @@ const RouteFinderScreen = () => {
                 autoPlay
                 ref={animation => { this.animation = animation; }}
                 style={{ height: 200, width: 200 }}
-                source={LottieAnimationSource}
+                source={LottieAnimationSource as any}
             />
             <TouchableOpacity
                 onPress={() => startingPointModalRef.current.openModal()}
@@ -78,6 +78,7 @@ const RouteFinderScreen = () => {
                 ref={startingPointModalRef}
                 onStationSelected={station => setStartingPoint(station)}
             />
+            
             <StationListModal
                 ref={destinationModalRef}
                 onStationSelected={station => setDestinationPoint(station)}

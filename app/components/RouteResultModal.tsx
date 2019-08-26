@@ -1,24 +1,26 @@
 import React from 'react';
-import { StyleSheet, TextInput, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import Modalize from 'react-native-modalize';
-import Typography from '../constants/Typography';
-import Colors from '../constants/Colors';
-import { StationListData } from '../constants/FormattedData';
 import Timeline from 'react-native-timeline-listview';
+import Colors from '../constants/Colors';
+import Typography from '../constants/Typography';
 
-export default class RouteResultModal extends React.PureComponent {
+type RouteResultModalProps = {
+
+    from: string,
+    to: string,
+    routeResultData: any
+};
+
+type RouteResultModalState = {};
+
+export default class RouteResultModal extends React.PureComponent<RouteResultModalProps, RouteResultModalState> {
 
     modal = React.createRef();
 
-    onClosed = () => {
-        const { onClosed } = this.props;
+    openModal = () => this.modal.current['open']();
 
-        if (onClosed) onClosed();
-    };
-
-    openModal = () => this.modal.current.open();
-
-    closeModal = () => this.modal.current.close();
+    closeModal = () => this.modal.current['close']();
 
     render() {
 
@@ -28,9 +30,8 @@ export default class RouteResultModal extends React.PureComponent {
 
         return (
             <Modalize
-                ref={this.modal}
+                ref={this.modal as any}
                 keyboardAvoidingBehavior={'padding'}
-                onClosed={this.onClosed}
                 modalStyle={{ marginTop: 24, overflow: 'hidden' }}>
 
                 <View style={{ paddingVertical: 10, paddingHorizontal: 16, backgroundColor: '#eee' }}>
