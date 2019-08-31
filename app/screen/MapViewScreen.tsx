@@ -1,6 +1,7 @@
 import ReactNativeZoomableView from '@dudigital/react-native-zoomable-view/src/ReactNativeZoomableView';
 import React from 'react';
-import { Image, Dimensions, StyleSheet, View } from 'react-native';
+import { Dimensions, StyleSheet, View } from 'react-native';
+import Image from 'react-native-image-progress';
 
 const { height, width } = Dimensions.get('window');
 
@@ -11,12 +12,10 @@ const MapViewScreen = () => (
             minZoom={1}
             zoomStep={1}
             initialZoom={1}
-            bindToBorders={false}
-            style={{ height: height * 20, width: width * 20 }}>
+            bindToBorders={false}>
             <Image
-                style={{ flex: 1, height: null, width: null }}
-                source={require('../static/metro-map/metro-map.jpg')}
-                resizeMode='contain'
+                style={{ height, width }}
+                source={{ uri: 'http://www.delhimetrorail.com/images/bilingual-21062019.jpg' }}
             />
         </ReactNativeZoomableView>
     </View>
