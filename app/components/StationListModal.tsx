@@ -7,12 +7,12 @@ import Colors from '../constants/Colors';
 import { StationListData } from '../constants/FormattedData';
 import Typography from '../constants/Typography';
 
-type StationListModalProps = {
+interface StationListModalProps {
 
     onStationSelected: any
 };
 
-type StationListModalState = {
+interface StationListModalState {
 
     searchQuery: string
 };
@@ -45,7 +45,6 @@ export default class StationListModal extends React.PureComponent<StationListMod
     _listHeaderComponent = () => (
         <View style={{ flex: 1, justifyContent: 'center', padding: 10, paddingTop: 16, width: '100%', backgroundColor: Colors.secondary.light }}>
             <TextInput
-                autoFocus
                 autoCorrect={false}
                 autoCapitalize={'none'}
                 placeholder={'Search Stations...'}
@@ -69,7 +68,7 @@ export default class StationListModal extends React.PureComponent<StationListMod
 
         return (
             <Modalize
-                ref={this.modal as any}                
+                ref={this.modal as any}
                 keyboardAvoidingBehavior={'padding'}
                 modalStyle={styles.modal}>
 

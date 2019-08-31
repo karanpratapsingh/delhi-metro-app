@@ -13,7 +13,7 @@ const InitialRequestUrl: string = 'https://us-central1-delhimetroapi.cloudfuncti
 
 const { width } = Dimensions.get('window');
 
-const RouteFinderScreen = () => {
+const RouteFinderScreen: React.FC = () => {
 
     const startingPointModalRef = useRef(null);
     const destinationModalRef = useRef(null);
@@ -61,14 +61,12 @@ const RouteFinderScreen = () => {
                 onPress={() => startingPointModalRef.current.openModal()}
                 style={styles.locationContainer}>
                 <Text style={styles.locationText}>{startingPoint ? startingPoint : 'Select Current'}</Text>
-                {/* <FontAwesome name='dot-circle-o' color='red' size={20} /> */}
             </TouchableOpacity>
 
             <TouchableOpacity
                 onPress={() => destinationModalRef.current.openModal()}
                 style={styles.locationContainer}>
                 <Text style={styles.locationText}>{destinationPoint ? destinationPoint : 'Select Destination'}</Text>
-                {/* <FontAwesome name='dot-circle-o' color='green' size={20} /> */}
             </TouchableOpacity>
 
             <TouchableOpacity
