@@ -5,14 +5,14 @@ import Timeline from 'react-native-timeline-listview';
 import Colors from '../constants/Colors';
 import Typography from '../constants/Typography';
 
-type RouteResultModalProps = {
+interface RouteResultModalProps {
 
     from: string,
     to: string,
     routeResultData: any
 };
 
-type RouteResultModalState = {};
+interface RouteResultModalState {};
 
 export default class RouteResultModal extends React.PureComponent<RouteResultModalProps, RouteResultModalState> {
 

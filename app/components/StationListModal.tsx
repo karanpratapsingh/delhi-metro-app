@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 import Modalize from 'react-native-modalize';
 import { responsiveWidth } from 'react-native-responsive-dimensions';
 import { FlatGrid } from 'react-native-super-grid';
-import Colors from '../constants/Colors';
 import { StationListData } from '../constants/FormattedData';
 import Typography from '../constants/Typography';
+import SearchBarHeader from './SearchBarHeader';
 
 interface StationListModalProps {
 
@@ -25,6 +25,10 @@ export default class StationListModal extends React.PureComponent<StationListMod
 
     modal = React.createRef();
 
+    openModal = () => this.modal.current['open']();
+
+    closeModal = () => this.modal.current['close']();
+
     _onStationSelected = station => {
 
         this.props.onStationSelected(station);
@@ -36,23 +40,6 @@ export default class StationListModal extends React.PureComponent<StationListMod
             <Text style={styles.itemName}>{item.value}</Text>
             <Text style={styles.itemSynonym}>{item.synonyms.join(', ')}</Text>
         </TouchableOpacity>
-    );
-
-    openModal = () => this.modal.current['open']();
-
-    closeModal = () => this.modal.current['close']();
-
-    _listHeaderComponent = () => (
-        <View style={{ flex: 1, justifyContent: 'center', padding: 10, paddingTop: 16, width: '100%', backgroundColor: Colors.secondary.light }}>
-            <TextInput
-                autoCorrect={false}
-                autoCapitalize={'none'}
-                placeholder={'Search Stations...'}
-                style={{ ...Typography.body, backgroundColor: Colors.primary.light, borderRadius: 20, paddingHorizontal: 16, paddingVertical: 4, fontSize: 16 }}
-                value={this.state.searchQuery}
-                onChangeText={searchQuery => this.setState({ searchQuery })}
-            />
-        </View>
     );
 
     render() {
@@ -72,7 +59,12 @@ export default class StationListModal extends React.PureComponent<StationListMod
                 keyboardAvoidingBehavior={'padding'}
                 modalStyle={styles.modal}>
 
-                {this._listHeaderComponent()}
+                <SearchBarHeader
+                    value={this.state.searchQuery}
+                    onChangeText={searchQuery => this.setState({ searchQuery })}
+                    containerStyle={{ paddingHorizontal: 10 }}
+                />
+
                 <FlatGrid
                     showsVerticalScrollIndicator={false}
                     itemDimension={responsiveWidth(100)}
@@ -92,7 +84,7 @@ const styles = StyleSheet.create({
     },
     modal: {
         marginTop: 32,
-        overflow: 'hidden'
+        paddingTop: 16
     },
     listItem: {
         alignItems: 'flex-start',

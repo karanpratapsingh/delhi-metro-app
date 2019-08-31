@@ -29,7 +29,7 @@ const TabNavigator = createBottomTabNavigator({
     RouteFinderScreen: {
         screen: RouteFinderScreen,
         navigationOptions: {
-            tabBarIcon: ({ focused, tintColor }) => <Icon.MaterialIcons name={'monetization-on'} color={tintColor} size={30} />
+            tabBarIcon: ({ focused, tintColor }) => <Icon.FontAwesome name={'location-arrow'} color={tintColor} size={30} />
         }
     },
     MapViewScreen: {

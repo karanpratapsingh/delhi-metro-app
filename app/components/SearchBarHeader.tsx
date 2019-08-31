@@ -1,25 +1,41 @@
 import React from 'react';
-import { View, TextInput } from 'react-native';
-import Typography from '../constants/Typography';
+import { StyleSheet, TextInput, View } from 'react-native';
 import Colors from '../constants/Colors';
+import Typography from '../constants/Typography';
 
 interface SearchBarProps {
     value: string,
     onChangeText: any,
-    placeholder: string
+    placeholder?: string,
+    containerStyle?: any
 };
 
-const SearchBarHeader: React.FC<SearchBarProps> = ({ value, onChangeText, placeholder }) => (
-    <View style={{ flex: 1, justifyContent: 'center', padding: 10, paddingTop: 16, width: '100%', backgroundColor: Colors.secondary.light }}>
+const SearchBarHeader: React.FC<SearchBarProps> = ({ value, onChangeText, placeholder, containerStyle }) => (
+    <View style={[styles.container, containerStyle]}>
         <TextInput
             autoCorrect={false}
             autoCapitalize={'none'}
-            placeholder={placeholder}
-            style={{ ...Typography.body, backgroundColor: Colors.primary.light, borderRadius: 20, paddingHorizontal: 16, paddingVertical: 4, fontSize: 16 }}
+            placeholder={placeholder || 'Search stations...'}
+            style={styles.textInput}
             value={value}
             onChangeText={onChangeText}
         />
     </View>
 );
+
+const styles = StyleSheet.create({
+    container: {
+        justifyContent: 'center',
+        backgroundColor: Colors.secondary.light
+    },
+    textInput: {
+        ...Typography.body,
+        backgroundColor: Colors.primary.light,
+        borderRadius: 20,
+        paddingHorizontal: 16,
+        paddingVertical: 6,
+        fontSize: 16
+    }
+});
 
 export default SearchBarHeader;
