@@ -1,5 +1,4 @@
 [
-   
     {
         "value": "AIIMS",
         "synonyms": [
@@ -1386,11 +1385,10 @@
             "Terminal 1-IGI Airport",
             "Terminal 1",
             "IGI Airport T1",
-            "IGI Airport Terminal 1" ,
+            "IGI Airport Terminal 1",
             "Terminal 1 IGI Airport",
             "Indira Gandhi International Airport Terminal 1",
             "Indira Gandhi International Airport T1"
-
         ]
     },
     {
@@ -1499,9 +1497,5 @@
         "synonyms": [
             "Yamuna Bank"
         ]
-    },
-    {
-        "value": "",
-        "synonyms": []
     }
 ]
