@@ -11,16 +11,11 @@ const LineInfoScreen: React.FC = () => {
 
     const [searchQuery, setSearchQuery] = useState('');
 
-    const displayData = data.map(route => {
-        console.log(route.id);
-        return {
-            title: route['name']['english'],
-        };
-    });
+    const displayData = data.map(({ name: { english: title }}) => ({ title }));
 
     const FilteredDisplayData = displayData.filter(station => {
 
-        let { title } = station;
+        const { title } = station;
 
         if (searchQuery === '') return station;
         else if (title.toLowerCase().includes(searchQuery.toLowerCase())) return station;
