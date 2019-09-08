@@ -49,8 +49,11 @@
         }
     },
     {
-        "english": "Peera Garhi",
-        "hindi": "पीरागढ़ी"
+        "id": 8,
+        "name": {
+            "english": "Peera Garhi",
+            "hindi": "पीरागढ़ी"
+        }
     },
     {
         "id": 9,

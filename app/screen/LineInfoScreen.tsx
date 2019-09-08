@@ -12,9 +12,9 @@ const LineInfoScreen: React.FC = () => {
     const [searchQuery, setSearchQuery] = useState('');
 
     const displayData = data.map(route => {
-
+        console.log(route.id);
         return {
-            title: route['25'] || route['Hindi'],
+            title: route['name']['english'],
         };
     });
 

@@ -49,8 +49,11 @@
         }
     },
     {
-        "english": "Noida Sector 137",
-        "hindi": "नोएडा सेक्टर १३७"
+        "id": 8,
+        "name": {
+            "english": "Noida Sector 137",
+            "hindi": "नोएडा सेक्टर १३७"
+        }
     },
     {
         "id": 9,
