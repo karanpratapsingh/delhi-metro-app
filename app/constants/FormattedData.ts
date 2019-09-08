@@ -127,3 +127,17 @@ export const MetroLineListData: MetroLineListType[] = [
         colors: MetroLineColorGradients.Orange
     }
 ];
+
+export const transformPath = path => {
+
+    return path.map(name => {
+        let line = null;
+        const path = StationListData.find(station => station.name.english === name);
+        if (typeof path !== 'undefined') line = path.line;
+
+        return { name, line };
+    });
+};
+
+
+

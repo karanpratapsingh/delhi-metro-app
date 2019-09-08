@@ -38,7 +38,7 @@ export default class StationListModal extends React.PureComponent<StationListMod
     renderItem = ({ item }) => (
         <TouchableOpacity onPress={() => this._onStationSelected(item.name.english)} style={styles.listItem}>
             <Text style={styles.itemName}>{item.name.english}</Text>
-            <Text style={styles.itemSynonym}>{item.synonyms.join(', ')}</Text>
+            <Text ellipsizeMode={'tail'} numberOfLines={1} style={styles.itemSynonym}>{item.synonyms.join(', ')}</Text>
         </TouchableOpacity>
     );
 

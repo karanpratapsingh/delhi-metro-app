@@ -4,15 +4,23 @@ import Modalize from 'react-native-modalize';
 import Timeline from 'react-native-timeline-listview';
 import Colors from '../constants/Colors';
 import Typography from '../constants/Typography';
+import { MetroLineColorGradients } from '../constants/FormattedData';
 
 interface RouteResultModalProps {
 
     from: string,
     to: string,
-    routeResultData: any
+    routeResultData: {
+        path: {
+            name: string,
+            line: string
+        }[],
+        interchange: string[],
+        time: any
+    }
 };
 
-interface RouteResultModalState {};
+interface RouteResultModalState { };
 
 export default class RouteResultModal extends React.PureComponent<RouteResultModalProps, RouteResultModalState> {
 
@@ -22,11 +30,18 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
 
     closeModal = () => this.modal.current['close']();
 
+    renderDetail = ({ title, lineColor }) => <Text style={{ ...Typography.body, fontSize: 24, color: lineColor }}>{title}</Text>;
+
     render() {
 
-        const { from, to, routeResultData: { path, time } } = this.props;
+        const { from, to, routeResultData: { path, interchange, time } } = this.props;
 
-        const pathTimeLineData = path.map(path => ({ title: path }));
+        const pathTimeLineData = path.map(({ name: title, line }) => {
+
+            const [color] = MetroLineColorGradients[line];
+
+            return { title, lineColor: color, circleColor: color };
+        });
 
         return (
             <Modalize
@@ -34,10 +49,11 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
                 keyboardAvoidingBehavior={'padding'}
                 modalStyle={{ marginTop: 24, overflow: 'hidden' }}>
 
-                <View style={{ paddingVertical: 10, paddingHorizontal: 16, backgroundColor: '#eee' }}>
+                <View style={{ paddingVertical: 10, paddingHorizontal: 16, backgroundColor: '#fAfAfA' }}>
                     <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>From: {from}</Text>
                     <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>To: {to}</Text>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>ETA: {parseFloat(time).toFixed(2)} mins</Text>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>Expected time: {parseFloat(time).toFixed(2)} mins</Text>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>Interchanges: {interchange.length}</Text>
                 </View>
 
                 <View style={{ flex: 1, marginTop: 5, paddingLeft: 5, paddingRight: 20 }}>
@@ -48,8 +64,9 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
                         circleColor={Colors.primary.regular}
                         lineColor={Colors.primary.regular}
                         titleStyle={{ ...Typography.body, fontSize: 16, paddingVertical: 5, color: Colors.secondary.light }}
-                        detailContainerStyle={{ marginBottom: 20, paddingHorizontal: 16, borderRadius: 5, backgroundColor: Colors.primary.regular }}
+                        detailContainerStyle={{ marginBottom: 20, paddingHorizontal: 16, borderRadius: 5 }}
                         data={pathTimeLineData}
+                        renderDetail={this.renderDetail}
                         bounces={false}
                         options={{
                             showsVerticalScrollIndicator: false,

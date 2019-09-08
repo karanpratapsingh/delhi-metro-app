@@ -5,6 +5,7 @@ import StationListModal from '../components/StationListModal';
 import RouteResultModal from '../components/RouteResultModal';
 import Typography from '../constants/Typography';
 import Colors from '../constants/Colors';
+import { transformPath } from '../constants/FormattedData';
 
 console.disableYellowBox = true;
 
@@ -23,7 +24,7 @@ const RouteFinderScreen: React.FC = () => {
     const [startingPoint, setStartingPoint] = useState('');
     const [destinationPoint, setDestinationPoint] = useState('');
     const [requestUrl, setRequestUrl] = useState(InitialRequestUrl);
-    const [routeResultData, setRouteResultData] = useState({ path: [], time: 0 });
+    const [routeResultData, setRouteResultData] = useState({ path: [], interchange: [], time: 0 });
     const [isFetchingData, setFetchingData] = useState(false);
 
     const dispatchRequest = () => setRequestUrl(`${InitialRequestUrl}from=${startingPoint}&to=${destinationPoint}`);
@@ -34,8 +35,9 @@ const RouteFinderScreen: React.FC = () => {
             try {
                 setFetchingData(true);
                 const response = await fetch(requestUrl as RequestInfo);
-                const { path, time } = await response.json();
-                setRouteResultData({ path, time });
+                const { path, interchange, time } = await response.json();
+
+                setRouteResultData({ path: transformPath(path), interchange, time });
                 setFetchingData(false);
 
                 routeResultModalRef.current.openModal();
