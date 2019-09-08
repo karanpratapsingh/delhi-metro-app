@@ -1,146 +1,177 @@
 [
     {
-        "25": "Janakpuri West",
-        "Hindi": "जनकपुरी पश्चिम",
-        "Phase": "3",
-        "Opening": "29 May 2018",
-        "Interchange\nConnection": "Blue Line    Bus Terminal",
-        "Station Layout": "Underground",
-        "Platform Level Type": "Island",
-        "Depot Connection": "None",
-        "Depot Layout": "None"
+        "id": 1,
+        "name": {
+            "english": "Janakpuri West",
+            "hindi": "जनकपुरी पश्चिम"
+        }
     },
     {
-        "25": "Dabri Mor-Janakpuri South",
-        "Hindi": "डाबरी मोर",
-        "Phase": "Feeder Bus"
+        "id": 2,
+        "name": {
+            "english": "Dabri Mor-Janakpuri South",
+            "hindi": "डाबरी मोर"
+        }
     },
     {
-        "25": "Dashrath Puri",
-        "Hindi": "दशरथ पुरी"
+        "id": 3,
+        "name": {
+            "english": "Dashrath Puri",
+            "hindi": "दशरथ पुरी"
+        }
     },
     {
-        "25": "Palam",
-        "Hindi": "पालम",
-        "Phase": "Bus Terminal"
+        "id": 4,
+        "name": {
+            "english": "Palam",
+            "hindi": "पालम"
+        }
     },
     {
-        "25": "Sadar Bazaar Cantonment",
-        "Hindi": "सदर बाजार छावनी",
-        "Phase": "Feeder Bus",
-        "Opening": "Elevated",
-        "Interchange\nConnection": "Side"
+        "id": 5,
+        "name": {
+            "english": "Sadar Bazaar Cantonment",
+            "hindi": "सदर बाजार छावनी"
+        }
     },
     {
-        "25": "Terminal 1-IGI Airport",
-        "Hindi": "टर्मिनल 1 इन्दिरा गाँधी अंतर्राष्ट्रीय हवाई अड्डा",
-        "Phase": "IGI Airport    Feeder Bus",
-        "Opening": "Underground",
-        "Interchange\nConnection": "Island"
+        "id": 6,
+        "name": {
+            "english": "Terminal 1-IGI Airport",
+            "hindi": "टर्मिनल 1 इन्दिरा गाँधी अंतर्राष्ट्रीय हवाई अड्डा"
+        }
     },
     {
-        "25": "Shankar Vihar",
-        "Hindi": "शंकर विहार",
-        "Phase": "Feeder Bus",
-        "Opening": "Elevated",
-        "Interchange\nConnection": "Side"
+        "id": 7,
+        "name": {
+            "english": "Shankar Vihar",
+            "hindi": "शंकर विहार"
+        }
     },
     {
-        "25": "Vasant Vihar",
-        "Hindi": "वसन्त विहार",
-        "Phase": "Underground",
-        "Opening": "Island"
+        "id": 8,
+        "name": {
+            "english": "Vasant Vihar",
+            "hindi": "वसन्त विहार"
+        }
     },
     {
-        "25": "Munirka",
-        "Hindi": "मुनिरका"
+        "id": 9,
+        "name": {
+            "english": "Munirka",
+            "hindi": "मुनिरका"
+        }
     },
     {
-        "25": "R.K.Puram",
-        "Hindi": "राम कृष्ण पुरम"
+        "id": 10,
+        "name": {
+            "english": "R.K.Puram",
+            "hindi": "राम कृष्ण पुरम"
+        }
     },
     {
-        "25": "IIT Delhi",
-        "Hindi": "आईआईटी दिल्ली"
+        "id": 11,
+        "name": {
+            "english": "IIT Delhi",
+            "hindi": "आईआईटी दिल्ली"
+        }
     },
     {
-        "25": "Hauz Khas",
-        "Hindi": "हौज़ खास",
-        "Phase": "Yellow Line    Feeder Bus"
+        "id": 12,
+        "name": {
+            "english": "Hauz Khas",
+            "hindi": "हौज़ खास"
+        }
     },
     {
-        "25": "Panchsheel Park",
-        "Hindi": "पंचशील पार्क",
-        "Phase": "Feeder Bus"
+        "id": 13,
+        "name": {
+            "english": "Panchsheel Park",
+            "hindi": "पंचशील पार्क"
+        }
     },
     {
-        "25": "Chirag Delhi",
-        "Hindi": "चिराग दिल्ली"
+        "id": 14,
+        "name": {
+            "english": "Chirag Delhi",
+            "hindi": "चिराग दिल्ली"
+        }
     },
     {
-        "25": "Greater Kailash",
-        "Hindi": "ग्रेटर कैलाश"
+        "id": 15,
+        "name": {
+            "english": "Greater Kailash",
+            "hindi": "ग्रेटर कैलाश"
+        }
     },
     {
-        "25": "Nehru Enclave",
-        "Hindi": "नेहरू एन्क्लेव"
+        "id": 16,
+        "name": {
+            "english": "Nehru Enclave",
+            "hindi": "नेहरू एन्क्लेव"
+        }
     },
     {
-        "25": "Kalkaji Mandir",
-        "Hindi": "कालकाजी मंदिर",
-        "Phase": "25 Dec 2017",
-        "Opening": "Violet Line    Bus Terminal",
-        "Interchange\nConnection": "Side"
+        "id": 17,
+        "name": {
+            "english": "Kalkaji Mandir",
+            "hindi": "कालकाजी मंदिर"
+        }
     },
     {
-        "25": "Okhla NSIC",
-        "Hindi": "ओखला एन एस आई सी",
-        "Phase": "Indian Railways    Feeder Bus",
-        "Opening": "Elevated",
-        "Interchange\nConnection": "Side"
+        "id": 18,
+        "name": {
+            "english": "Okhla NSIC",
+            "hindi": "ओखला एन एस आई सी"
+        }
     },
     {
-        "25": "Sukhdev Vihar",
-        "Hindi": "सुखदेव विहार",
-        "Phase": "Feeder Bus"
+        "id": 19,
+        "name": {
+            "english": "Sukhdev Vihar",
+            "hindi": "सुखदेव विहार"
+        }
     },
     {
-        "25": "Jamia Millia Islamia",
-        "Hindi": "जामिया मिलिया इस्लामिया"
+        "id": 20,
+        "name": {
+            "english": "Jamia Millia Islamia",
+            "hindi": "जामिया मिलिया इस्लामिया"
+        }
     },
     {
-        "25": "Okhla Vihar",
-        "Hindi": "ओखला विहार"
+        "id": 21,
+        "name": {
+            "english": "Okhla Vihar",
+            "hindi": "ओखला विहार"
+        }
     },
     {
-        "25": "Jasola Vihar Shaheen Bagh",
-        "Hindi": "जसोला विहार शाहीन बाग",
-        "Phase": "Elevated",
-        "Opening": "Side",
-        "Interchange\nConnection": "Jasola Vihar Shaheen Bagh Depot",
-        "Station Layout": "Elevated"
+        "id": 22,
+        "name": {
+            "english": "Jasola Vihar Shaheen Bagh",
+            "hindi": "जसोला विहार शाहीन बाग"
+        }
     },
     {
-        "25": "Kalindi Kunj",
-        "Hindi": "कालिन्दी कुंज",
-        "Phase": "Bus Terminal",
-        "Opening": "Elevated",
-        "Interchange\nConnection": "Side",
-        "Station Layout": "Kalindi Kunj\nDepot",
-        "Platform Level Type": "At Grade"
+        "id": 23,
+        "name": {
+            "english": "Kalindi Kunj",
+            "hindi": "कालिन्दी कुंज"
+        }
     },
     {
-        "25": "Okhla Bird Sanctuary",
-        "Hindi": "ओखला पक्षी अभयारण्य",
-        "Phase": "Feeder Bus",
-        "Opening": "Elevated",
-        "Interchange\nConnection": "Side",
-        "Station Layout": "None",
-        "Platform Level Type": "None"
+        "id": 24,
+        "name": {
+            "english": "Okhla Bird Sanctuary",
+            "hindi": "ओखला पक्षी अभयारण्य"
+        }
     },
     {
-        "25": "Botanical Garden",
-        "Hindi": "बॉटैनिकल गार्डन",
-        "Phase": "Blue Line    Feeder Bus"
+        "id": 25,
+        "name": {
+            "english": "Botanical Garden",
+            "hindi": "बॉटैनिकल गार्डन"
+        }
     }
 ]
