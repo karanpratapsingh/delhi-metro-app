@@ -12,7 +12,7 @@
     -> Orange (Airport Express Line)
  */
 
-import Stations from '../static/metro-stations/stations.json';
+import Stations from '../static/metro-stations/stations-generated.json';
 
 import AquaLine from '../static/metro-lines/lines/aqua.json';
 import BlueLine from '../static/metro-lines/lines/blue.json';
@@ -27,78 +27,103 @@ import PinkLine from '../static/metro-lines/lines/pink.json';
 import PinkBranch from '../static/metro-lines/branches/pink-branch.json';
 import OrangeLine from '../static/metro-lines/lines/orange.json';
 
+type MetroLineDataType = {
+    id: number,
+    name: {
+        english: string,
+        hindi: string
+    },
+};
+
 type MetroLineListType = {
     title: string,
-    data: any,
+    data: MetroLineDataType[],
     colors: string[]
 };
 
 type StationListType = {
-    value: string,
+    id: number,
+    name: {
+        english: string,
+        hindi: string
+    },
+    line: string,
     synonyms: string[]
 };
 
-export const StationListData: StationListType[] = Stations; 
+export const MetroLineColorGradients = {
+    Aqua: ['#6dd5ed', '#2193b0'],
+    Blue: ['#20bdff', '#5433ff'],
+    Magenta: ['#962678', '#ea70cf'],
+    Yellow: ['#ffe259', '#ffa751'],
+    Red: ['#FF416C', '#FF4B2B'],
+    Green: ['#78ffd6', '#a8ff78'],
+    Violet: ['#654ea3', '#eaafc8'],
+    Pink: ['#ea70cf', '#eaafc8'],
+    Orange: ['#f4791f', '#f5af19'],
+};
+
+export const StationListData: StationListType[] = Stations;
 
 export const MetroLineListData: MetroLineListType[] = [
     {
         title: 'Aqua Line',
         data: AquaLine,
-        colors: ['#6dd5ed', '#2193b0']
+        colors: MetroLineColorGradients.Aqua
     },
     {
         title: 'Blue Line',
         data: BlueLine,
-        colors: ['#20bdff', '#5433ff']
+        colors: MetroLineColorGradients.Blue
     },
     {
         title: 'Blue Branch',
         data: BlueBranch,
-        colors: ['#20bdff', '#5433ff']
+        colors: MetroLineColorGradients.Blue
     },
     {
         title: 'Magenta Line',
         data: MagentaLine,
-        colors: ['#962678', '#ea70cf']
+        colors: MetroLineColorGradients.Magenta
     },
     {
         title: 'Yellow Line',
         data: YellowLine,
-        colors: ['#ffe259', '#ffa751']
+        colors: MetroLineColorGradients.Yellow
     },
     {
         title: 'Red Line',
         data: RedLine,
-        colors: ['#FF416C', '#FF4B2B']
+        colors: MetroLineColorGradients.Red
     },
     {
         title: 'Green Line',
         data: GreenLine,
-        colors: ['#78ffd6', '#a8ff78']
+        colors: MetroLineColorGradients.Green
     },
     {
         title: 'Green Branch',
         data: GreenBranch,
-        colors: ['#78ffd6', '#a8ff78']
+        colors: MetroLineColorGradients.Green
     },
     {
         title: 'Violet Line',
         data: VioletLine,
-        colors: ['#654ea3', '#eaafc8']
+        colors: MetroLineColorGradients.Violet
     },
     {
         title: 'Pink Line',
         data: PinkLine,
-        colors: ['#ea70cf', '#eaafc8'],
+        colors: MetroLineColorGradients.Pink
     },
     {
         title: 'Pink Branch',
         data: PinkBranch,
-        colors: ['#ea70cf', '#eaafc8'],
+        colors: MetroLineColorGradients.Pink
     },
     {
         title: 'Orange Line',
         data: OrangeLine,
-        colors: ['#f4791f', '#f5af19'],
+        colors: MetroLineColorGradients.Orange
     }
 ];

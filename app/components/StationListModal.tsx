@@ -36,8 +36,8 @@ export default class StationListModal extends React.PureComponent<StationListMod
     };
 
     renderItem = ({ item }) => (
-        <TouchableOpacity onPress={() => this._onStationSelected(item.value)} style={styles.listItem}>
-            <Text style={styles.itemName}>{item.value}</Text>
+        <TouchableOpacity onPress={() => this._onStationSelected(item.name.english)} style={styles.listItem}>
+            <Text style={styles.itemName}>{item.name.english}</Text>
             <Text style={styles.itemSynonym}>{item.synonyms.join(', ')}</Text>
         </TouchableOpacity>
     );
@@ -47,10 +47,10 @@ export default class StationListModal extends React.PureComponent<StationListMod
         const { searchQuery } = this.state;
         const FilteredStationListData = StationListData.filter(station => {
 
-            let { value } = station;
+            const { name } = station;
 
             if (searchQuery === '') return station;
-            else if (value.toLowerCase().includes(searchQuery.toLowerCase())) return station;
+            else if (name.english.toLowerCase().includes(searchQuery.toLowerCase())) return station;
         });
 
         return (
