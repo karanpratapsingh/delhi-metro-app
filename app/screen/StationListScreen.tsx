@@ -2,7 +2,7 @@ import { Entypo } from '@expo/vector-icons';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, Platform, TouchableOpacity, View } from 'react-native';
 import { responsiveWidth } from 'react-native-responsive-dimensions';
 import { FlatGrid } from 'react-native-super-grid';
 import { useNavigation } from 'react-navigation-hooks';
@@ -10,14 +10,15 @@ import Colors from '../constants/Colors';
 import { MetroLineListData } from '../constants/FormattedData';
 import Typography from '../constants/Typography';
 
-const StationListScreen = () => {
+const StationListScreen: React.FC = () => {
 
     let { navigate } = useNavigation();
 
     return (
         <>
-            <View style={{ paddingVertical: 10, paddingHorizontal: 20 }}>
-                <Text style={{ ...Typography.heading, fontSize: 32 }}>Metro Lines</Text>
+            <View style={{ paddingVertical: 5, paddingTop: 30, paddingHorizontal: 20 }}>
+                <Text style={{ ...Typography.heading, textAlign: 'center', fontSize: Platform.select({ ios: 60, android: 56 }), opacity: 0.08, position: 'absolute', top: 0, left: 20 }}>Metro Lines</Text>
+                <Text style={{ ...Typography.heading, textAlign: 'center', fontSize: 40 }}>Metro Lines</Text>
             </View>
             <FlatGrid
                 showsVerticalScrollIndicator={false}
@@ -50,17 +51,9 @@ const styles = StyleSheet.create({
     itemName: {
         ...Typography.body,
         color: Colors.secondary.light,
+        marginLeft: 5,
         fontSize: 20
-    },
-    sectionHeader: {
-        flex: 1,
-        ...Typography.heading,
-        alignItems: 'center',
-        color: '#636e72',
-        backgroundColor: 'white',
-        padding: 8,
-        paddingLeft: 20
-    },
+    }
 });
 
 export default StationListScreen;

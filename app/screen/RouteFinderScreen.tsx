@@ -60,7 +60,7 @@ const RouteFinderScreen: React.FC = () => {
             <TouchableOpacity
                 onPress={() => startingPointModalRef.current.openModal()}
                 style={styles.locationContainer}>
-                <Text style={styles.locationText}>{startingPoint ? startingPoint : 'Select Current'}</Text>
+                <Text style={styles.locationText}>{startingPoint ? startingPoint : 'Select Start'}</Text>
             </TouchableOpacity>
 
             <TouchableOpacity
@@ -111,9 +111,9 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-        width: width * 0.6,
+        width: width * 0.72,
         borderWidth: StyleSheet.hairlineWidth,
-        borderColor: Colors.primary.regular,
+        borderColor: Colors.black,
         paddingVertical: 10,
         paddingHorizontal: 16,
         marginTop: 16,
@@ -121,7 +121,8 @@ const styles = StyleSheet.create({
     },
     locationText: {
         ...Typography.body,
-        fontSize: 16
+        fontSize: 16,
+        color: Colors.black
     },
     startButtonContainer: {
         alignItems: 'center',

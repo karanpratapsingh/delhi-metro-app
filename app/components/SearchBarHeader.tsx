@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, TextInput, View } from 'react-native';
+import { StyleSheet, Platform, TextInput, View } from 'react-native';
 import Colors from '../constants/Colors';
 import Typography from '../constants/Typography';
 
@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
         backgroundColor: Colors.primary.light,
         borderRadius: 20,
         paddingHorizontal: 16,
-        paddingVertical: 6,
+        paddingVertical: Platform.select({ ios: 6, android: 2 }),
         fontSize: 16
     }
 });

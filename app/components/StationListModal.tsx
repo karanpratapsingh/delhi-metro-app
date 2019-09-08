@@ -89,6 +89,7 @@ const styles = StyleSheet.create({
     listItem: {
         alignItems: 'flex-start',
         padding: 16,
+        paddingTop: 10,
         borderBottomColor: '#f8f8f8',
         borderBottomWidth: 1,
     },

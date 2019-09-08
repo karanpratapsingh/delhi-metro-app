@@ -4,6 +4,7 @@ import Timeline from 'react-native-timeline-listview';
 import { useNavigationParam } from 'react-navigation-hooks';
 import Typography from '../constants/Typography';
 import SearchBarHeader from '../components/SearchBarHeader';
+import Colors from '../constants/Colors';
 
 const LineInfoScreen: React.FC = () => {
 
@@ -24,7 +25,7 @@ const LineInfoScreen: React.FC = () => {
     return (
         <View style={styles.container}>
             
-            <Text style={{ ...Typography.heading, fontSize: 32, paddingHorizontal: 20, paddingTop: 10, paddingBottom: 5, color: colors[0] }}>{title}</Text>
+            <Text style={{ ...Typography.body, fontSize: 40, paddingHorizontal: 20, paddingVertical: 5, color: colors[0] }}>{title}</Text>
             <SearchBarHeader
                 value={searchQuery}
                 onChangeText={setSearchQuery}
@@ -37,7 +38,7 @@ const LineInfoScreen: React.FC = () => {
                     showsVerticalScrollIndicator={false}
                     circleColor={colors[0]}
                     lineColor={colors[0]}
-                    titleStyle={{ ...Typography.body, fontSize: 16, paddingVertical: 5, color: 'white' }}
+                    titleStyle={{ ...Typography.body, fontSize: 16, paddingVertical: 5, color: Colors.secondary.light }}
                     detailContainerStyle={{ marginBottom: 20, paddingHorizontal: 16, borderRadius: 5, backgroundColor: `${colors[0]}` }}
                     data={FilteredDisplayData}
                     options={{
