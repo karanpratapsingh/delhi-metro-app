@@ -5,6 +5,7 @@ import Timeline from 'react-native-timeline-listview';
 import Colors from '../constants/Colors';
 import Typography from '../constants/Typography';
 import { MetroLineColorGradients } from '../constants/FormattedData';
+import * as ExpoIcon from '@expo/vector-icons';
 
 interface RouteResultModalProps {
 
@@ -30,7 +31,18 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
 
     closeModal = () => this.modal.current['close']();
 
-    renderDetail = ({ title, lineColor }) => <Text style={{ ...Typography.body, fontSize: 24, color: lineColor }}>{title}</Text>;
+    renderDetail = ({ title, lineColor, isInterchange }) => (
+        <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+            <Text style={{ ...Typography.body, fontSize: 20, color: lineColor }}>
+                {title}
+            </Text>
+            {isInterchange ?
+                <ExpoIcon.FontAwesome name={'exchange'} size={20} color={lineColor} />
+                :
+                null
+            }
+        </View>
+    );
 
     render() {
 
@@ -39,8 +51,9 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
         const pathTimeLineData = path.map(({ name: title, line }) => {
 
             const [color] = MetroLineColorGradients[line];
+            const isInterchange = interchange.includes(title);
 
-            return { title, lineColor: color, circleColor: color };
+            return { title, lineColor: color, circleColor: color, isInterchange };
         });
 
         return (
@@ -49,11 +62,27 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
                 keyboardAvoidingBehavior={'padding'}
                 modalStyle={{ marginTop: 24, overflow: 'hidden' }}>
 
-                <View style={{ paddingVertical: 10, paddingHorizontal: 16, backgroundColor: '#fAfAfA' }}>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>From: {from}</Text>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>To: {to}</Text>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>Expected time: {parseFloat(time).toFixed(2)} mins</Text>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 16 }}>Interchanges: {interchange.length}</Text>
+                <View style={{ paddingVertical: 16, paddingHorizontal: 16, backgroundColor: '#fAfAfA' }}>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17 }}>
+                        <ExpoIcon.MaterialCommunityIcons name={'circle-slice-8'} size={18} color={Colors.primary.regular} />
+                        {'  '}
+                        {from}
+                    </Text>
+                    <ExpoIcon.Entypo name={'dots-three-vertical'} size={20} color={Colors.secondary.dark} />
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17 }}>
+                        <ExpoIcon.MaterialCommunityIcons name={'circle-slice-8'} size={18} color={Colors.primary.regular} />
+                        {'  '}
+                        {to}
+                    </Text>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17, marginTop: 10 }}>
+                        <ExpoIcon.MaterialCommunityIcons name={'clock-outline'} size={20} color={Colors.primary.regular} />
+                        {'  Time: '}
+                        {parseFloat(time).toFixed(2)} mins</Text>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17, marginTop: 10 }}>
+                        <ExpoIcon.FontAwesome name={'exchange'} size={18} color={Colors.primary.regular} />
+                        {'  Interchanges: '}
+                        {interchange.length}
+                    </Text>
                 </View>
 
                 <View style={{ flex: 1, marginTop: 5, paddingLeft: 5, paddingRight: 20 }}>
