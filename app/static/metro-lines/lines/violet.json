@@ -1,244 +1,240 @@
 [
     {
-        "10": "None",
-        "English": "5",
-        "Hindi": "Kashmere Gate",
-        "Phase": "कश्मीरी गेट",
-        "Opening": "3",
-        "Interchange\nConnection": "20 December 2004",
-        "Station Layout": "Red Line    Yellow Line    ISBT",
-        "Platform Level Type": "Underground",
-        "Depot Connection": "Island",
-        "Depot Layout": "None"
+        "id": 1,
+        "name": {
+            "english": "Kashmere Gate",
+            "hindi": "कश्मीरी गेट"
+        }
     },
     {
-        "English": "6",
-        "Hindi": "Lal Qila",
-        "Phase": "लाल किला",
-        "Opening": "28 May 2017",
-        "Interchange\nConnection": "Feeder Bus"
+        "id": 3,
+        "name": {
+            "english": "Lal Qila",
+            "hindi": "लाल किला"
+        }
     },
     {
-        "English": "7",
-        "Hindi": "Jama Masjid",
-        "Phase": "जामा मस्जिद"
+        "id": 3,
+        "name": {
+            "english": "Jama Masjid",
+            "hindi": "जामा मस्जिद"
+        }
     },
     {
-        "English": "8",
-        "Hindi": "Delhi Gate",
-        "Phase": "दिल्ली गेट"
+        "id": 4,
+        "name": {
+            "english": "Delhi Gate",
+            "hindi": "दिल्ली गेट"
+        }
     },
     {
-        "English": "9",
-        "Hindi": "ITO",
-        "Phase": "आईटीओ",
-        "Opening": "8 June 2015",
-        "Interchange\nConnection": "Indian Railways    Feeder Bus"
+        "id": 5,
+        "name": {
+            "english": "ITO",
+            "hindi": "आईटीओ"
+        }
     },
     {
-        "10": "None",
-        "English": "10",
-        "Hindi": "Mandi House",
-        "Phase": "मंडी हाउस",
-        "Opening": "2",
-        "Interchange\nConnection": "26 June 2014",
-        "Station Layout": "Blue Line    Indian Railways    Feeder Bus",
-        "Platform Level Type": "Underground",
-        "Depot Connection": "Island",
-        "Depot Layout": "None"
+        "id": 6,
+        "name": {
+            "english": "Mandi House",
+            "hindi": "मंडी हाउस"
+        }
     },
     {
-        "English": "11",
-        "Hindi": "Janpath",
-        "Phase": "जनपथ",
-        "Opening": "Feeder Bus"
+        "id": 7,
+        "name": {
+            "english": "Janpath",
+            "hindi": "जनपथ"
+        }
     },
     {
-        "10": "None",
-        "English": "12",
-        "Hindi": "Central Secretariat",
-        "Phase": "केंद्रीय सचिवालय",
-        "Opening": "1",
-        "Interchange\nConnection": "3 October 2010",
-        "Station Layout": "Yellow Line    Feeder Bus",
-        "Platform Level Type": "Underground",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 8,
+        "name": {
+            "english": "Central Secretariat",
+            "hindi": "केंद्रीय सचिवालय"
+        }
     },
     {
-        "English": "13",
-        "Hindi": "Khan Market",
-        "Phase": "खान बाजार",
-        "Opening": "Feeder Bus",
-        "Interchange\nConnection": "Island"
+        "id": 9,
+        "name": {
+            "english": "Khan Market",
+            "hindi": "खान बाजार"
+        }
     },
     {
-        "English": "14",
-        "Hindi": "Jawaharlal Nehru Stadium",
-        "Phase": "जवाहर लाल नेहरू स्टेडियम",
-        "Opening": "Bus Terminal"
+        "id": 10,
+        "name": {
+            "english": "Jawaharlal Nehru Stadium",
+            "hindi": "जवाहर लाल नेहरू स्टेडियम"
+        }
     },
     {
-        "English": "15",
-        "Hindi": "Jangpura",
-        "Phase": "जंगपुरा",
-        "Opening": "Indian Railways    Feeder Bus"
+        "id": 11,
+        "name": {
+            "english": "Jangpura",
+            "hindi": "जंगपुरा"
+        }
     },
     {
-        "English": "16",
-        "Hindi": "Lajpat Nagar",
-        "Phase": "लाजपत नगर",
-        "Opening": "Pink Line   Bus Terminal",
-        "Interchange\nConnection": "Elevated",
-        "Station Layout": "Side"
+        "id": 12,
+        "name": {
+            "english": "Lajpat Nagar",
+            "hindi": "लाजपत नगर"
+        }
     },
     {
-        "English": "17",
-        "Hindi": "Moolchand",
-        "Phase": "मूलचंद",
-        "Opening": "Feeder Bus"
+        "id": 13,
+        "name": {
+            "english": "Moolchand",
+            "hindi": "मूलचंद"
+        }
     },
     {
-        "English": "18",
-        "Hindi": "Kailash Colony",
-        "Phase": "कैलाश कॉलोनी",
-        "Opening": "Feeder Bus"
+        "id": 14,
+        "name": {
+            "english": "Kailash Colony",
+            "hindi": "कैलाश कॉलोनी"
+        }
     },
     {
-        "English": "19",
-        "Hindi": "Nehru Place",
-        "Phase": "नेहरू प्लेस",
-        "Opening": "Bus Terminal"
+        "id": 15,
+        "name": {
+            "english": "Nehru Place",
+            "hindi": "नेहरू प्लेस"
+        }
     },
     {
-        "English": "20",
-        "Hindi": "Kalkaji Mandir",
-        "Phase": "कालकाजी मंदिर",
-        "Opening": "Magenta Line    Bus Terminal"
+        "id": 16,
+        "name": {
+            "english": "Kalkaji Mandir",
+            "hindi": "कालकाजी मंदिर"
+        }
     },
     {
-        "English": "21",
-        "Hindi": "Govind Puri",
-        "Phase": "गोविंद पुरी",
-        "Opening": "Feeder Bus"
+        "id": 17,
+        "name": {
+            "english": "Govind Puri",
+            "hindi": "गोविंद पुरी"
+        }
     },
     {
-        "English": "22",
-        "Hindi": "Harkesh Nagar",
-        "Phase": "हरकेश नगर",
-        "Opening": "Indian Railways"
+        "id": 18,
+        "name": {
+            "english": "Harkesh Nagar",
+            "hindi": "हरकेश नगर"
+        }
     },
     {
-        "English": "23",
-        "Hindi": "Jasola Apollo",
-        "Phase": "जसोला अपोलो",
-        "Opening": "Feeder Bus"
+        "id": 19,
+        "name": {
+            "english": "Jasola Apollo",
+            "hindi": "जसोला अपोलो"
+        }
     },
     {
-        "English": "24",
-        "Hindi": "Sarita Vihar",
-        "Phase": "सरिता विहार",
-        "Opening": "Feeder Bus",
-        "Interchange\nConnection": "Sarita Vihar Depot",
-        "Station Layout": "At Grade"
+        "id": 20,
+        "name": {
+            "english": "Sarita Vihar",
+            "hindi": "सरिता विहार"
+        }
     },
     {
-        "10": "None",
-        "English": "25",
-        "Hindi": "Mohan Estate",
-        "Phase": "मोहन एस्टेट",
-        "Opening": "2",
-        "Interchange\nConnection": "14 January 2011",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 21,
+        "name": {
+            "english": "Mohan Estate",
+            "hindi": "मोहन एस्टेट"
+        }
     },
     {
-        "English": "26",
-        "Hindi": "Tughlakabad",
-        "Phase": "तुगलकाबाद",
-        "Opening": "Indian Railways   Bus Terminal"
+        "id": 22,
+        "name": {
+            "english": "Tughlakabad",
+            "hindi": "तुगलकाबाद"
+        }
     },
     {
-        "English": "27",
-        "Hindi": "Badarpur",
-        "Phase": "बदरपुर",
-        "Opening": "Bus Terminal"
+        "id": 23,
+        "name": {
+            "english": "Badarpur",
+            "hindi": "बदरपुर"
+        }
     },
     {
-        "English": "28",
-        "Hindi": "Sarai",
-        "Phase": "सराय",
-        "Opening": "3",
-        "Interchange\nConnection": "6 September 2015",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side"
+        "id": 24,
+        "name": {
+            "english": "Sarai",
+            "hindi": "सराय"
+        }
     },
     {
-        "English": "29",
-        "Hindi": "NHPC Chowk",
-        "Phase": "एनएचपीसी चौक",
-        "Opening": "Feeder Bus"
+        "id": 25,
+        "name": {
+            "english": "NHPC Chowk",
+            "hindi": "एनएचपीसी चौक"
+        }
     },
     {
-        "English": "30",
-        "Hindi": "Mewala Maharajpur",
-        "Phase": "मेवला महाराजपुर",
-        "Opening": "Feeder Bus"
+        "id": 26,
+        "name": {
+            "english": "Mewala Maharajpur",
+            "hindi": "मेवला महाराजपुर"
+        }
     },
     {
-        "English": "31",
-        "Hindi": "Sector 28",
-        "Phase": "सेक्टर 28",
-        "Opening": "Feeder Bus"
+        "id": 27,
+        "name": {
+            "english": "Sector 28",
+            "hindi": "सेक्टर 28"
+        }
     },
     {
-        "English": "32",
-        "Hindi": "Badkhal Mor",
-        "Phase": "बदखल मोर",
-        "Opening": "Feeder Bus"
+        "id": 28,
+        "name": {
+            "english": "Badkhal Mor",
+            "hindi": "बदखल मोर"
+        }
     },
     {
-        "English": "33",
-        "Hindi": "Faridabad Old",
-        "Phase": "फरीदाबाद ओल्ड",
-        "Opening": "Indian Railways    Bus Terminal"
+        "id": 29,
+        "name": {
+            "english": "Faridabad Old",
+            "hindi": "फरीदाबाद ओल्ड"
+        }
     },
     {
-        "English": "34",
-        "Hindi": "Neelam Chowk Ajronda",
-        "Phase": "नीलम चौक अज्रोंडा",
-        "Opening": "Feeder Bus",
-        "Interchange\nConnection": "Neelam Chowk Ajronda Depot",
-        "Station Layout": "At Grade"
+        "id": 30,
+        "name": {
+            "english": "Neelam Chowk Ajronda",
+            "hindi": "नीलम चौक अज्रोंडा"
+        }
     },
     {
-        "English": "35",
-        "Hindi": "Bata Chowk",
-        "Phase": "बाटा चौक",
-        "Opening": "Feeder Bus",
-        "Interchange\nConnection": "None",
-        "Station Layout": "None"
+        "id": 31,
+        "name": {
+            "english": "Bata Chowk",
+            "hindi": "बाटा चौक"
+        }
     },
     {
-        "English": "36",
-        "Hindi": "Escorts Mujesar",
-        "Phase": "एस्कॉर्ट्स मुजेसर",
-        "Opening": "Indian Railways    Feeder Bus"
+        "id": 32,
+        "name": {
+            "english": "Escorts Mujesar",
+            "hindi": "एस्कॉर्ट्स मुजेसर"
+        }
     },
     {
-        "English": "37",
-        "Hindi": "Sant Surdas",
-        "Phase": "संत सूरदास - सिही (एनसीबी कॉलोनी - गुड ईयर)",
-        "Opening": "19 November 2018",
-        "Interchange\nConnection": "Feeder Bus"
+        "id": 33,
+        "name": {
+            "english": "Sant Surdas",
+            "hindi": "संत सूरदास - सिही (एनसीबी कॉलोनी - गुड ईयर)"
+        }
     },
     {
-        "English": "38",
-        "Hindi": "Raja Nahar Singh",
-        "Phase": "राजा नाहर सिंह (बल्लभगढ़)",
-        "Opening": "Indian Railways    Bus Terminal"
+        "id": 34,
+        "name": {
+            "english": "Raja Nahar Singh",
+            "hindi": "राजा नाहर सिंह (बल्लभगढ़)"
+        }
     }
 ]
