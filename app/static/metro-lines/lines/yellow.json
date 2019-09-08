@@ -1,242 +1,261 @@
 [
     {
-        "English": "6",
-        "Hindi": "Samaypur Badli",
-        "Phase": "समयपुर बादली",
-        "Opening": "10 November 2015",
-        "Interchange\nConnection": "Indian Railways    Bus Terminal",
-        "Station Layout": "Elevated",
-        "Depot Connection": "None",
-        "Depot Layout": "None"
+        "id": 1,
+        "name": {
+            "english": "Samaypur Badli",
+            "hindi": "समयपुर बादली"
+        }
     },
     {
-        "English": "7",
-        "Hindi": "Rohini Sector 18",
-        "Phase": "रोहिणी सेक्टर 18, 19",
-        "Opening": "Feeder Bus"
+        "id": 2,
+        "name": {
+            "english": "Rohini Sector 18",
+            "hindi": "रोहिणी सेक्टर 18, 19"
+        }
     },
     {
-        "English": "8",
-        "Hindi": "Haiderpur",
-        "Phase": "हैदरपुर बादली मोड़"
+        "id": 3,
+        "name": {
+            "english": "Haiderpur",
+            "hindi": "हैदरपुर बादली मोड़"
+        }
     },
     {
-        "9": "None",
-        "English": "9",
-        "Hindi": "Jahangirpuri",
-        "Phase": "जहाँगीरपुरी",
-        "Opening": "2",
-        "Interchange\nConnection": "4 February 2009",
-        "Station Layout": "Bus Terminal",
-        "Depot Connection": "Elevated",
-        "Depot Layout": "None"
+        "id": 4,
+        "name": {
+            "english": "Jahangirpuri",
+            "hindi": "जहाँगीरपुरी"
+        }
     },
     {
-        "English": "10",
-        "Hindi": "Adarsh Nagar",
-        "Phase": "आदर्श नगर",
-        "Opening": "Indian Railways    Feeder Bus"
+        "id": 5,
+        "name": {
+            "english": "Adarsh Nagar",
+            "hindi": "आदर्श नगर"
+        }
     },
     {
-        "English": "11",
-        "Hindi": "Azadpur",
-        "Phase": "आज़ादपुर",
-        "Opening": "Pink Line    Indian Railways \n Bus Terminal"
+        "id": 6,
+        "name": {
+            "english": "Azadpur",
+            "hindi": "आज़ादपुर"
+        }
     },
     {
-        "English": "12",
-        "Hindi": "Model Town",
-        "Phase": "मॉडल टाउन",
-        "Opening": "Feeder Bus"
+        "id": 7,
+        "name": {
+            "english": "Model Town",
+            "hindi": "मॉडल टाउन"
+        }
     },
     {
-        "English": "13",
-        "Hindi": "GTB Nagar",
-        "Phase": "गुरु तेग बहादुर नगर",
-        "Opening": "Underground"
+        "id": 8,
+        "name": {
+            "english": "GTB Nagar",
+            "hindi": "गुरु तेग बहादुर नगर"
+        }
     },
     {
-        "9": "At Grade",
-        "English": "14",
-        "Hindi": "Vishwa Vidyalaya",
-        "Phase": "विश्व विद्यालय",
-        "Opening": "1",
-        "Interchange\nConnection": "20 December 2004",
-        "Station Layout": "Feeder Bus",
-        "Depot Connection": "Underground",
-        "Depot Layout": "Vishwa Vidyalaya\nKhyber Pass Depot"
+        "id": 9,
+        "name": {
+            "english": "Vishwa Vidyalaya",
+            "hindi": "विश्व विद्यालय"
+        }
     },
     {
-        "English": "15",
-        "Hindi": "Vidhan Sabha",
-        "Phase": "विधान सभा",
-        "Opening": "None",
-        "Interchange\nConnection": "None"
+        "id": 10,
+        "name": {
+            "english": "Vidhan Sabha",
+            "hindi": "विधान सभा"
+        }
     },
     {
-        "English": "16",
-        "Hindi": "Civil Lines",
-        "Phase": "सिविल लाइन्स"
+        "id": 11,
+        "name": {
+            "english": "Civil Lines",
+            "hindi": "सिविल लाइन्स"
+        }
     },
     {
-        "English": "17",
-        "Hindi": "Kashmere Gate",
-        "Phase": "कश्मीरी गेट",
-        "Opening": "Red Line    Violet Line    ISBT"
+        "id": 12,
+        "name": {
+            "english": "Kashmere Gate",
+            "hindi": "कश्मीरी गेट"
+        }
     },
     {
-        "English": "18",
-        "Hindi": "Chandni Chowk",
-        "Phase": "चाँदनी चौक",
-        "Opening": "3 July 2005",
-        "Interchange\nConnection": "Indian Railways"
+        "id": 13,
+        "name": {
+            "english": "Chandni Chowk",
+            "hindi": "चाँदनी चौक"
+        }
     },
     {
-        "English": "19",
-        "Hindi": "Chawri Bazar",
-        "Phase": "चावड़ी बाजार",
-        "Opening": "None"
+        "id": 14,
+        "name": {
+            "english": "Chawri Bazar",
+            "hindi": "चावड़ी बाजार"
+        }
     },
     {
-        "English": "20",
-        "Hindi": "New Delhi",
-        "Phase": "नई दिल्ली",
-        "Opening": "Orange Line    Indian Railways \n Bus Terminal"
+        "id": 15,
+        "name": {
+            "english": "New Delhi",
+            "hindi": "नई दिल्ली"
+        }
     },
     {
-        "English": "21",
-        "Hindi": "Rajiv Chowk",
-        "Phase": "राजीव चौक",
-        "Opening": "Blue Line    Bus Terminal"
+        "id": 16,
+        "name": {
+            "english": "Rajiv Chowk",
+            "hindi": "राजीव चौक"
+        }
     },
     {
-        "English": "22",
-        "Hindi": "Patel Chowk",
-        "Phase": "पटेल चौक",
-        "Opening": "Feeder Bus"
+        "id": 17,
+        "name": {
+            "english": "Patel Chowk",
+            "hindi": "पटेल चौक"
+        }
     },
     {
-        "English": "23",
-        "Hindi": "Central Secretariat",
-        "Phase": "केन्द्रीय सचिवालय",
-        "Opening": "Violet Line    Bus Terminal"
+        "id": 18,
+        "name": {
+            "english": "Central Secretariat",
+            "hindi": "केन्द्रीय सचिवालय"
+        }
     },
     {
-        "9": "None",
-        "English": "24",
-        "Hindi": "Udyog Bhawan",
-        "Phase": "उद्योग भवन",
-        "Opening": "2",
-        "Interchange\nConnection": "3 September 2010",
-        "Station Layout": "Feeder Bus",
-        "Depot Connection": "Underground",
-        "Depot Layout": "None"
+        "id": 19,
+        "name": {
+            "english": "Udyog Bhawan",
+            "hindi": "उद्योग भवन"
+        }
     },
     {
-        "English": "25",
-        "Hindi": "Lok Kalyan Marg",
-        "Phase": "लोक कल्याण मार्ग"
+        "id": 20,
+        "name": {
+            "english": "Lok Kalyan Marg",
+            "hindi": "लोक कल्याण मार्ग"
+        }
     },
     {
-        "English": "26",
-        "Hindi": "Jor Bagh",
-        "Phase": "जोर बाग़"
+        "id": 21,
+        "name": {
+            "english": "Jor Bagh",
+            "hindi": "जोर बाग़"
+        }
     },
     {
-        "English": "27",
-        "Hindi": "INA",
-        "Phase": "आई.एन.ए",
-        "Opening": "Pink Line    Feeder Bus"
+        "id": 22,
+        "name": {
+            "english": "INA",
+            "hindi": "आई.एन.ए"
+        }
     },
     {
-        "English": "28",
-        "Hindi": "AIIMS",
-        "Phase": "एम्स",
-        "Opening": "Feeder Bus"
+        "id": 23,
+        "name": {
+            "english": "AIIMS",
+            "hindi": "एम्स"
+        }
     },
     {
-        "English": "29",
-        "Hindi": "Green Park",
-        "Phase": "ग्रीन पार्क"
+        "id": 24,
+        "name": {
+            "english": "Green Park",
+            "hindi": "ग्रीन पार्क"
+        }
     },
     {
-        "English": "30",
-        "Hindi": "Hauz Khas",
-        "Phase": "हौज़ खास",
-        "Opening": "Magenta Line    Feeder Bus"
+        "id": 25,
+        "name": {
+            "english": "Hauz Khas",
+            "hindi": "हौज़ खास"
+        }
     },
     {
-        "English": "31",
-        "Hindi": "Malviya Nagar",
-        "Phase": "मालवीय नगर",
-        "Opening": "Feeder Bus"
+        "id": 26,
+        "name": {
+            "english": "Malviya Nagar",
+            "hindi": "मालवीय नगर"
+        }
     },
     {
-        "English": "32",
-        "Hindi": "Saket",
-        "Phase": "साकेत"
+        "id": 27,
+        "name": {
+            "english": "Saket",
+            "hindi": "साकेत"
+        }
     },
     {
-        "English": "33",
-        "Hindi": "Qutub Minar",
-        "Phase": "क़ुतुब मीनार",
-        "Opening": "21 June 2010",
-        "Interchange\nConnection": "Bus Terminal",
-        "Station Layout": "Elevated"
+        "id": 28,
+        "name": {
+            "english": "Qutub Minar",
+            "hindi": "क़ुतुब मीनार"
+        }
     },
     {
-        "English": "34",
-        "Hindi": "Chhatarpur",
-        "Phase": "छत्तरपुर",
-        "Opening": "26 August 2010"
+        "id": 29,
+        "name": {
+            "english": "Chhatarpur",
+            "hindi": "छत्तरपुर"
+        }
     },
     {
-        "English": "35",
-        "Hindi": "Sultanpur",
-        "Phase": "सुल्तानपुर",
-        "Opening": "21 June 2010",
-        "Interchange\nConnection": "Sultanpur Depot",
-        "Station Layout": "At Grade"
+        "id": 30,
+        "name": {
+            "english": "Sultanpur",
+            "hindi": "सुल्तानपुर"
+        }
     },
     {
-        "English": "36",
-        "Hindi": "Ghitorni",
-        "Phase": "घिटोरनी",
-        "Opening": "Feeder Bus",
-        "Interchange\nConnection": "None",
-        "Station Layout": "None"
+        "id": 31,
+        "name": {
+            "english": "Ghitorni",
+            "hindi": "घिटोरनी"
+        }
     },
     {
-        "English": "37",
-        "Hindi": "Arjan Garh",
-        "Phase": "अर्जन गढ़"
+        "id": 32,
+        "name": {
+            "english": "Arjan Garh",
+            "hindi": "अर्जन गढ़"
+        }
     },
     {
-        "English": "38",
-        "Hindi": "Guru Dronacharya",
-        "Phase": "गुरु द्रोणाचार्य"
+        "id": 33,
+        "name": {
+            "english": "Guru Dronacharya",
+            "hindi": "गुरु द्रोणाचार्य"
+        }
     },
     {
-        "English": "39",
-        "Hindi": "Sikandarpur",
-        "Phase": "सिकन्दरपुर",
-        "Opening": "Rapid Metro Gurgaon   Feeder Bus"
+        "id": 34,
+        "name": {
+            "english": "Sikandarpur",
+            "hindi": "सिकन्दरपुर"
+        }
     },
     {
-        "English": "40",
-        "Hindi": "MG Road",
-        "Phase": "एम जी रोड",
-        "Opening": "Feeder Bus"
+        "id": 35,
+        "name": {
+            "english": "MG Road",
+            "hindi": "एम जी रोड"
+        }
     },
     {
-        "English": "41",
-        "Hindi": "IFFCO Chowk",
-        "Phase": "इफ़्को चौक"
+        "id": 36,
+        "name": {
+            "english": "IFFCO Chowk",
+            "hindi": "इफ़्को चौक"
+        }
     },
     {
-        "English": "42",
-        "Hindi": "HUDA City Centre",
-        "Phase": "हुडा सिटी सैंटर",
-        "Opening": "Bus Terminal"
+        "id": 37,
+        "name": {
+            "english": "HUDA City Centre",
+            "hindi": "हुडा सिटी सैंटर"
+        }
     }
 ]
