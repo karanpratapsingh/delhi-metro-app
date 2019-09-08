@@ -23,8 +23,16 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.delhi.metro.app",
+      "versionCode": 1
+    },
     "ios": {
+      "bundleIdentifier": "com.delhi.metro.app",
       "supportsTablet": true
+    },
+    "web": {
+      "productionPath": "web-build"
     },
     "description": "Delhi Metro app I made for fun"
   }
