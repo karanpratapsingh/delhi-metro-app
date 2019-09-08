@@ -1,182 +1,107 @@
-[ 
+[
     {
-        "3": "त्रिलोकपुरी संजय झील",
-        "4": "3",
-        "10": "None",
-        "English": "31",
-        "Hindi": "Trilokpuri Sanjay Lake",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 1,
+        "name": {
+            "english": "Trilokpuri Sanjay Lake",
+            "hindi": "त्रिलोकपुरी संजय झील"
+        }
     },
     {
-        "3": "पूर्वी विनोद नगर - मयूर विहार - II",
-        "4": "3",
-        "10": "None",
-        "English": "32",
-        "Hindi": "East Vinod Nagar - Mayur Vihar-II",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Bus Terminal",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 2,
+        "name": {
+            "english": "East Vinod Nagar - Mayur Vihar-II",
+            "hindi": "पूर्वी विनोद नगर - मयूर विहार - II"
+        }
     },
     {
-        "3": "मंडावली- वेस्ट विनोद नगर",
-        "4": "3",
-        "10": "None",
-        "English": "33",
-        "Hindi": "Mandawali - West Vinod Nagar",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 3,
+        "name": {
+            "english": "Mandawali - West Vinod Nagar",
+            "hindi": "मंडावली- वेस्ट विनोद नगर"
+        }
     },
     {
-        "3": "आईपी एक्सटेंशन",
-        "4": "3",
-        "10": "At Grade\nElevated",
-        "English": "34",
-        "Hindi": "IP Extension",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Bus Terminal",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Island",
-        "Depot Layout": "Vinod Nagar Depot"
+        "id": 4,
+        "name": {
+            "english": "IP Extension",
+            "hindi": "आईपी एक्सटेंशन"
+        }
     },
     {
-        "3": "आनंद विहार",
-        "4": "3",
-        "10": "None",
-        "English": "35",
-        "Hindi": "Anand Vihar",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Blue Line \n Indian Railways   ISBT",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 5,
+        "name": {
+            "english": "Anand Vihar",
+            "hindi": "आनंद विहार"
+        }
     },
     {
-        "3": "कड़कड़डूमा",
-        "4": "3",
-        "10": "None",
-        "English": "36",
-        "Hindi": "Karkarduma",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Blue Line \n Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 6,
+        "name": {
+            "english": "Karkarduma",
+            "hindi": "कड़कड़डूमा"
+        }
     },
     {
-        "3": "कड़कड़डूमा कोर्ट",
-        "4": "3",
-        "10": "None",
-        "English": "37",
-        "Hindi": "Karkarduma Court",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 7,
+        "name": {
+            "english": "Karkarduma Court",
+            "hindi": "कड़कड़डूमा कोर्ट"
+        }
     },
     {
-        "3": "कृष्णा नगर",
-        "4": "3",
-        "10": "None",
-        "English": "38",
-        "Hindi": "Krishna Nagar",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 8,
+        "name": {
+            "english": "Krishna Nagar",
+            "hindi": "कृष्णा नगर"
+        }
     },
     {
-        "3": "आजाद नगर पूर्व",
-        "4": "3",
-        "10": "None",
-        "English": "39",
-        "Hindi": "East Azad Nagar",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 9,
+        "name": {
+            "english": "East Azad Nagar",
+            "hindi": "आजाद नगर पूर्व"
+        }
     },
     {
-        "3": "वेलकम",
-        "4": "3",
-        "10": "None",
-        "English": "40",
-        "Hindi": "Welcome",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Red Line \n Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 10,
+        "name": {
+            "english": "Welcome",
+            "hindi": "वेलकम"
+        }
     },
     {
-        "3": "जाफराबाद",
-        "4": "3",
-        "10": "None",
-        "English": "41",
-        "Hindi": "Jaffrabad",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 11,
+        "name": {
+            "english": "Jaffrabad",
+            "hindi": "जाफराबाद"
+        }
     },
     {
-        "3": "मौजपुर - बाबरपुर",
-        "4": "3",
-        "10": "None",
-        "English": "42",
-        "Hindi": "Maujpur-Babarpur",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Island",
-        "Depot Layout": "None"
+        "id": 12,
+        "name": {
+            "english": "Maujpur-Babarpur",
+            "hindi": "मौजपुर - बाबरपुर"
+        }
     },
     {
-        "3": "गोकुलपुरी",
-        "4": "3",
-        "10": "None",
-        "English": "43",
-        "Hindi": "Gokulpuri",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Bus Terminal",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 13,
+        "name": {
+            "english": "Gokulpuri",
+            "hindi": "गोकुलपुरी"
+        }
     },
     {
-        "3": "जौहरी एनक्लेव",
-        "4": "3",
-        "10": "None",
-        "English": "44",
-        "Hindi": "Johri Enclave",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Bus Terminal",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 14,
+        "name": {
+            "english": "Johri Enclave",
+            "hindi": "जौहरी एनक्लेव"
+        }
     },
     {
-        "3": "शिव विहार",
-        "4": "3",
-        "10": "None",
-        "English": "45",
-        "Hindi": "Shiv Vihar",
-        "Interchange\nConnection": "31 October 2018",
-        "Station Layout": "Feeder Bus",
-        "Platform Level Type": "Elevated",
-        "Depot Connection": "Side",
-        "Depot Layout": "None"
+        "id": 15,
+        "name": {
+            "english": "Shiv Vihar",
+            "hindi": "शिव विहार"
+        }
     }
 ]
