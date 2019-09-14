@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Delhi Metro App",
-    "slug": "metro-app",
+    "slug": "delhi-metro-app",
     "privacy": "public",
     "sdkVersion": "34.0.0",
     "platforms": [
@@ -25,7 +25,8 @@
     ],
     "android": {
       "package": "com.delhi.metro.app",
-      "versionCode": 1
+      "versionCode": 1,
+      "permissions": []
     },
     "ios": {
       "bundleIdentifier": "com.delhi.metro.app",
