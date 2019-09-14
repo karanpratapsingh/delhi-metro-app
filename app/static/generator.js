@@ -130,9 +130,11 @@ UpdatedSchemaData.reduce((prev, current, index) => {
     return current;
 });
 
-fs.writeFile('./metro-stations/new-stations-generated.json', JSON.stringify(UpdatedSchemaData), error => {
-    console.log('END OF WRITE');
-});
+// const removeId = [76, 171, 109, 29, 121, 70, 128, 243, 161, 79, 95, 256, 115, 193, 205, 40, 35, 164, 118, 119, 235, 152, 37];
+
+// fs.writeFile('./metro-stations/new-stations-generated.json', JSON.stringify(UpdatedSchemaData), error => {
+//     console.log('END OF WRITE');
+// });
 
 
 
