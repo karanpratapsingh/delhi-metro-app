@@ -48,12 +48,26 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
 
         const { from, to, routeResultData: { path, interchange, time } } = this.props;
 
-        const pathTimeLineData = path.map(({ name: title, lines }) => {
+        const pathTimeLineData = [];
 
+        path.map((data, index) => {
+
+            const { name: title, lines } = data;
             const [color] = MetroLineColorGradients[lines[0]];
             const isInterchange = interchange.includes(title);
+            const routeData = { title, lineColor: color, circleColor: color, isInterchange };
 
-            return { title, lineColor: color, circleColor: color, isInterchange };
+            if (index > 0) {
+                if (lines.length > 1) {
+
+                    let previousColor = path[index - 1].lines[0];
+                    routeData.lineColor = MetroLineColorGradients[previousColor][0];
+                    routeData.circleColor = MetroLineColorGradients[previousColor][0];
+                }
+            }
+
+            pathTimeLineData.push(routeData);
+            return data;
         });
 
         return (
