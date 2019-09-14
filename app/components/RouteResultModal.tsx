@@ -33,7 +33,7 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
 
     renderDetail = ({ title, lineColor, isInterchange }) => (
         <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
-            <Text style={{ ...Typography.body, fontSize: 20, color: lineColor }}>
+            <Text style={{ ...Typography.body, fontSize: 18, color: lineColor }}>
                 {title}
             </Text>
             {isInterchange ?
@@ -76,24 +76,24 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
                 keyboardAvoidingBehavior={'padding'}
                 modalStyle={{ marginTop: 24, overflow: 'hidden' }}>
 
-                <View style={{ paddingVertical: 16, paddingHorizontal: 16, backgroundColor: '#fAfAfA' }}>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17 }}>
+                <View style={{ paddingVertical: 16, paddingHorizontal: 16, backgroundColor: Colors.secondary.regular }}>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 18 }}>
                         <ExpoIcon.MaterialCommunityIcons name={'circle-slice-8'} size={18} color={Colors.primary.regular} />
                         {'  '}
                         {from}
                     </Text>
-                    <ExpoIcon.Entypo name={'dots-three-vertical'} size={20} color={Colors.secondary.dark} />
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17 }}>
+                    <ExpoIcon.Entypo name={'dots-three-vertical'} style={{ marginVertical: 4 }} size={20} color={Colors.secondary.dark} />
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 18 }}>
                         <ExpoIcon.MaterialCommunityIcons name={'circle-slice-8'} size={18} color={Colors.primary.regular} />
                         {'  '}
                         {to}
                     </Text>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17, marginTop: 10 }}>
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 18, marginTop: 12 }}>
                         <ExpoIcon.MaterialCommunityIcons name={'clock-outline'} size={20} color={Colors.primary.regular} />
-                        {'  Time: '}
+                        {' Time: '}
                         {parseFloat(time).toFixed(2)} mins</Text>
-                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 17, marginTop: 10 }}>
-                        <ExpoIcon.FontAwesome name={'exchange'} size={18} color={Colors.primary.regular} />
+                    <Text style={{ ...Typography.body, color: Colors.primary.regular, fontSize: 18, marginTop: 12 }}>
+                        <ExpoIcon.FontAwesome name={'exchange'} size={20} color={Colors.primary.regular} />
                         {'  Interchanges: '}
                         {interchange.length}
                     </Text>
