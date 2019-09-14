@@ -107,3 +107,23 @@
 //     console.log(error);
 // });
 
+
+/**
+ * Interchange station filter
+ */
+
+// const Generated = require('../static/metro-stations/stations-generated.json');
+
+// const duplicateStations = [];
+// Generated.reduce((prev, current) => {
+//     if (prev.name.english === current.name.english) {
+
+//         console.log('Duplicate: ' + current.name.english);
+//         console.log('Duplicate: ' + current.line + ', ' + prev.line);
+//         console.log('\n');
+//         duplicateStations.push(current.name.english)
+//     }
+//     return current;
+// });
+
+// console.log('Duplicates: ' + duplicateStations.length);

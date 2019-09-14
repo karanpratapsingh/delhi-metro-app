@@ -10,7 +10,7 @@ import { transformPath } from '../constants/FormattedData';
 console.disableYellowBox = true;
 
 const LottieAnimationSource: NodeRequire = require('../../assets/animations/map.json');
-const InitialRequestUrl: string = 'https://us-central1-delhimetroapi.cloudfunctions.net/route?';
+const InitialRequestUrl: string = 'https://us-central1-delhi-metro-api.cloudfunctions.net/route-get?';
 
 const { width } = Dimensions.get('window');
 
