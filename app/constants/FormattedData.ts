@@ -47,7 +47,7 @@ type StationListType = {
         english: string,
         hindi: string
     },
-    line: string,
+    lines: string[],
     synonyms: string[]
 };
 
@@ -131,11 +131,11 @@ export const MetroLineListData: MetroLineListType[] = [
 export const transformPath = path => {
 
     return path.map(name => {
-        let line = null;
+        let lines = null;
         const path = StationListData.find(station => station.name.english === name);
-        if (typeof path !== 'undefined') line = path.line;
+        if (typeof path !== 'undefined') lines = path.lines;
 
-        return { name, line };
+        return { name, lines };
     });
 };
 

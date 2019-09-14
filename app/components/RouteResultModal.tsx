@@ -14,7 +14,7 @@ interface RouteResultModalProps {
     routeResultData: {
         path: {
             name: string,
-            line: string
+            lines: string[]
         }[],
         interchange: string[],
         time: any
@@ -48,9 +48,9 @@ export default class RouteResultModal extends React.PureComponent<RouteResultMod
 
         const { from, to, routeResultData: { path, interchange, time } } = this.props;
 
-        const pathTimeLineData = path.map(({ name: title, line }) => {
+        const pathTimeLineData = path.map(({ name: title, lines }) => {
 
-            const [color] = MetroLineColorGradients[line];
+            const [color] = MetroLineColorGradients[lines[0]];
             const isInterchange = interchange.includes(title);
 
             return { title, lineColor: color, circleColor: color, isInterchange };
