@@ -9,6 +9,7 @@ import { useNavigation } from 'react-navigation-hooks';
 import Colors from '../constants/Colors';
 import { MetroLineListData } from '../constants/FormattedData';
 import Typography from '../constants/Typography';
+import AnimatedHeader from '../components/AnimatedHeader';
 
 const StationListScreen: React.FC = () => {
 
@@ -16,10 +17,7 @@ const StationListScreen: React.FC = () => {
 
     return (
         <>
-            <View style={{ paddingVertical: 5, paddingTop: 30, paddingHorizontal: 20 }}>
-                <Text style={{ ...Typography.heading, textAlign: 'center', fontSize: Platform.select({ ios: 60, android: 56 }), opacity: 0.08, position: 'absolute', top: 0, left: 20 }}>Metro Lines</Text>
-                <Text style={{ ...Typography.heading, textAlign: 'center', fontSize: 40 }}>Metro Lines</Text>
-            </View>
+            <AnimatedHeader title='Metro Lines' />
             <FlatGrid
                 showsVerticalScrollIndicator={false}
                 itemDimension={responsiveWidth(100)}

@@ -5,6 +5,7 @@ import { useNavigationParam } from 'react-navigation-hooks';
 import Typography from '../constants/Typography';
 import SearchBarHeader from '../components/SearchBarHeader';
 import Colors from '../constants/Colors';
+import AnimatedHeader from '../components/AnimatedHeader';
 
 const LineInfoScreen: React.FC = () => {
 
@@ -25,7 +26,8 @@ const LineInfoScreen: React.FC = () => {
     return (
         <View style={styles.container}>
             
-            <Text style={{ ...Typography.heading, fontSize: 40, paddingHorizontal: 20, paddingVertical: 5, color: colors[0] }}>{title}</Text>
+            {/* <Text style={{ ...Typography.heading, fontSize: 40, paddingHorizontal: 20, paddingVertical: 5, color: colors[0] }}>{title}</Text> */}
+            <AnimatedHeader title={title} color={colors[0]} style={{ marginBottom: 10 }} />
             <SearchBarHeader
                 value={searchQuery}
                 onChangeText={setSearchQuery}

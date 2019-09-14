@@ -58,7 +58,7 @@ export const MetroLineColorGradients = {
     Yellow: ['#fbc02d', '#ffa751'],
     Red: ['#e53935', '#FF4B2B'],
     Green: ['#4caf50', '#a8ff78'],
-    Violet: ['#654ea3', '#eaafc8'],
+    Violet: ['#654ea3', '#b39ddb'],
     Pink: ['#ea70cf', '#eaafc8'],
     Orange: ['#f4791f', '#f5af19'],
 };
