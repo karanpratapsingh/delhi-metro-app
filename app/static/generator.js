@@ -93,7 +93,7 @@ MetroLineListData.forEach(metroLine => {
         OutputData.push({
             id,
             name: line.name,
-            line: [metroLine.title],
+            lines: [metroLine.title],
             synonyms,
         });
 
@@ -112,7 +112,7 @@ OutputData.reduce((prev, current) => {
     if (prev.name.english === current.name.english)
         UpdatedSchemaData.push({
             ...current,
-            line: [...current.line, ...prev.line]
+            lines: [...current.lines, ...prev.lines]
         });
     else UpdatedSchemaData.push(current);
 
