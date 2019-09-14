@@ -1,11 +1,11 @@
+import * as ExpoIcon from '@expo/vector-icons';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Modalize from 'react-native-modalize';
 import Timeline from 'react-native-timeline-listview';
 import Colors from '../constants/Colors';
-import Typography from '../constants/Typography';
 import { MetroLineColorGradients } from '../constants/FormattedData';
-import * as ExpoIcon from '@expo/vector-icons';
+import Typography from '../constants/Typography';
 
 interface RouteResultModalProps {
 

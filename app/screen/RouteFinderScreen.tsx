@@ -1,11 +1,11 @@
 import LottieView from 'lottie-react-native';
-import React, { useRef, useState, useEffect } from 'react';
-import { StyleSheet, Text, TouchableOpacity, ActivityIndicator, View, Dimensions } from 'react-native';
-import StationListModal from '../components/StationListModal';
+import React, { useEffect, useRef, useState } from 'react';
+import { ActivityIndicator, Dimensions, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import RouteResultModal from '../components/RouteResultModal';
-import Typography from '../constants/Typography';
+import StationListModal from '../components/StationListModal';
 import Colors from '../constants/Colors';
 import { transformPath } from '../constants/FormattedData';
+import Typography from '../constants/Typography';
 
 console.disableYellowBox = true;
 

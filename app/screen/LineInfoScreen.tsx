@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import Timeline from 'react-native-timeline-listview';
 import { useNavigationParam } from 'react-navigation-hooks';
-import Typography from '../constants/Typography';
+import AnimatedHeader from '../components/AnimatedHeader';
 import SearchBarHeader from '../components/SearchBarHeader';
 import Colors from '../constants/Colors';
-import AnimatedHeader from '../components/AnimatedHeader';
+import Typography from '../constants/Typography';
 
 const LineInfoScreen: React.FC = () => {
 
@@ -26,7 +26,6 @@ const LineInfoScreen: React.FC = () => {
     return (
         <View style={styles.container}>
             
-            {/* <Text style={{ ...Typography.heading, fontSize: 40, paddingHorizontal: 20, paddingVertical: 5, color: colors[0] }}>{title}</Text> */}
             <AnimatedHeader title={title} color={colors[0]} style={{ marginBottom: 10 }} />
             <SearchBarHeader
                 value={searchQuery}

@@ -2,14 +2,14 @@ import { Entypo } from '@expo/vector-icons';
 import { BlurView } from 'expo-blur';
 import { LinearGradient } from 'expo-linear-gradient';
 import React from 'react';
-import { StyleSheet, Text, Platform, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { responsiveWidth } from 'react-native-responsive-dimensions';
 import { FlatGrid } from 'react-native-super-grid';
 import { useNavigation } from 'react-navigation-hooks';
+import AnimatedHeader from '../components/AnimatedHeader';
 import Colors from '../constants/Colors';
 import { MetroLineListData } from '../constants/FormattedData';
 import Typography from '../constants/Typography';
-import AnimatedHeader from '../components/AnimatedHeader';
 
 const StationListScreen: React.FC = () => {
 

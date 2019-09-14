@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Platform, TextInput, View } from 'react-native';
+import { Platform, StyleSheet, TextInput, View } from 'react-native';
 import Colors from '../constants/Colors';
 import Typography from '../constants/Typography';
 

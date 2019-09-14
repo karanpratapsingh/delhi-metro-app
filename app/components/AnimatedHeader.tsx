@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import { Platform, StyleSheet, Animated, Easing } from 'react-native';
-import Typography from '../constants/Typography';
+import React, { useEffect, useState } from 'react';
+import { Animated, Easing, Platform, StyleSheet } from 'react-native';
 import Colors from '../constants/Colors';
+import Typography from '../constants/Typography';
 
 interface AnimatedHeaderProps {
     title: string,
