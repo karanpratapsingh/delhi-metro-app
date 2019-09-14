@@ -1,5 +1,5 @@
-import React from 'react';
-import { Platform, StyleSheet, Text, View } from 'react-native';
+import React, { useState, useEffect } from 'react';
+import { Platform, StyleSheet, Animated, Easing } from 'react-native';
 import Typography from '../constants/Typography';
 import Colors from '../constants/Colors';
 
@@ -9,12 +9,35 @@ interface AnimatedHeaderProps {
     style?: {}
 };
 
-const AnimatedHeader: React.FC<AnimatedHeaderProps> = ({ title, color, style }) => (
-    <View style={[styles.container, style]}>
-        <Text style={[styles.headerOverlay, { color: color || Colors.primary.regular }]}>{title}</Text>
-        <Text style={[styles.header, { color: color || Colors.primary.regular }]}>{title}</Text>
-    </View>
-);
+const AnimatedHeader: React.FC<AnimatedHeaderProps> = ({ title, color, style }) => {
+
+    const [opacityTitle] = useState(new Animated.Value(0))
+    const [opacityOverlay] = useState(new Animated.Value(0))
+
+    useEffect(() => {
+        Animated.parallel([
+            Animated.timing(opacityTitle, {
+                toValue: 1,
+                duration: 400,
+                easing: Easing.linear,
+                useNativeDriver: true
+            }),
+            Animated.timing(opacityOverlay, {
+                toValue: 0.10,
+                duration: 1000,
+                easing: Easing.linear,
+                useNativeDriver: true
+            })
+        ]).start();
+    }, [])
+
+    return (
+        <Animated.View style={[styles.container, style]}>
+            <Animated.Text style={[styles.headerOverlay, { opacity: opacityOverlay, color: color || Colors.primary.regular }]}>{title}</Animated.Text>
+            <Animated.Text style={[styles.header, { opacity: opacityTitle, color: color || Colors.primary.regular }]}>{title}</Animated.Text>
+        </Animated.View>
+    );
+};
 
 const styles = StyleSheet.create({
     container: {
@@ -26,7 +49,7 @@ const styles = StyleSheet.create({
         ...Typography.subHeading,
         textAlign: 'center',
         fontSize: Platform.select({ ios: 60, android: 56 }),
-        opacity: 0.08,
+        // opacity: 0.08,
         position: 'absolute',
         top: 0,
         left: 0,
