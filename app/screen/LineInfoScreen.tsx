@@ -25,7 +25,7 @@ const LineInfoScreen: React.FC = () => {
     return (
         <View style={styles.container}>
             
-            <Text style={{ ...Typography.body, fontSize: 40, paddingHorizontal: 20, paddingVertical: 5, color: colors[0] }}>{title}</Text>
+            <Text style={{ ...Typography.heading, fontSize: 40, paddingHorizontal: 20, paddingVertical: 5, color: colors[0] }}>{title}</Text>
             <SearchBarHeader
                 value={searchQuery}
                 onChangeText={setSearchQuery}
@@ -38,7 +38,7 @@ const LineInfoScreen: React.FC = () => {
                     showsVerticalScrollIndicator={false}
                     circleColor={colors[0]}
                     lineColor={colors[0]}
-                    titleStyle={{ ...Typography.body, fontSize: 16, paddingVertical: 5, color: Colors.secondary.light }}
+                    titleStyle={{ ...Typography.body, fontSize: 18, paddingVertical: 5, color: Colors.secondary.light }}
                     detailContainerStyle={{ marginBottom: 20, paddingHorizontal: 16, borderRadius: 5, backgroundColor: `${colors[0]}` }}
                     data={FilteredDisplayData}
                     options={{

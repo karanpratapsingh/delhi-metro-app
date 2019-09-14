@@ -53,11 +53,11 @@ type StationListType = {
 
 export const MetroLineColorGradients = {
     Aqua: ['#6dd5ed', '#2193b0'],
-    Blue: ['#20bdff', '#5433ff'],
+    Blue: ['#1e88e5', '#5433ff'],
     Magenta: ['#962678', '#ea70cf'],
-    Yellow: ['#ffe259', '#ffa751'],
-    Red: ['#FF416C', '#FF4B2B'],
-    Green: ['#78ffd6', '#a8ff78'],
+    Yellow: ['#fbc02d', '#ffa751'],
+    Red: ['#e53935', '#FF4B2B'],
+    Green: ['#4caf50', '#a8ff78'],
     Violet: ['#654ea3', '#eaafc8'],
     Pink: ['#ea70cf', '#eaafc8'],
     Orange: ['#f4791f', '#f5af19'],
