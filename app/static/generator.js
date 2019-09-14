@@ -93,7 +93,7 @@ MetroLineListData.forEach(metroLine => {
         OutputData.push({
             id,
             name: line.name,
-            line: metroLine.title,
+            line: [metroLine.title],
             synonyms,
         });
 
@@ -107,20 +107,32 @@ OutputData.sort((a, b) => a.name.english.localeCompare(b.name.english));
  * Interchange station filter
  */
 
-const duplicateStations = [];
+const UpdatedSchemaData = [];
 OutputData.reduce((prev, current) => {
-    if (prev.name.english === current.name.english) {
+    if (prev.name.english === current.name.english)
+        UpdatedSchemaData.push({
+            ...current,
+            line: [...current.line, ...prev.line]
+        });
+    else UpdatedSchemaData.push(current);
 
-        console.log('Duplicate: ' + current.name.english);
-        console.log('Duplicate: ' + current.line + ', ' + prev.line);
-        console.log('\n');
-        duplicateStations.push(current.name.english)
-    }
     return current;
 });
 
-console.log('Duplicates: ' + duplicateStations.length);
+UpdatedSchemaData.reduce((prev, current, index) => {
+    if (prev.name.english === current.name.english) {
 
-// fs.writeFile('./metro-stations/stations-generated-new.json', JSON.stringify(OutputData), error => {
-//     console.log(error);
-// });
+        console.log('Duplicate: ' + current.name.english);
+        console.log('Duplicate: ' + current.line);
+        console.log('\n');
+    }
+
+    return current;
+});
+
+fs.writeFile('./metro-stations/new-stations-generated.json', JSON.stringify(UpdatedSchemaData), error => {
+    console.log('END OF WRITE');
+});
+
+
+

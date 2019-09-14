@@ -1,0 +1,3678 @@
+[
+    {
+        "id": 126,
+        "name": {
+            "english": "AIIMS",
+            "hindi": "एम्स"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "AIIMS",
+            "All India Medical Institute"
+        ]
+    },
+    {
+        "id": 270,
+        "name": {
+            "english": "Airport",
+            "hindi": "विमानपत्तन"
+        },
+        "line": [
+            "Orange"
+        ],
+        "synonyms": [
+            "Airport"
+        ]
+    },
+    {
+        "id": 36,
+        "name": {
+            "english": "Akshardham",
+            "hindi": "अक्षरधाम"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Akshardham"
+        ]
+    },
+    {
+        "id": 17,
+        "name": {
+            "english": "Alpha 1",
+            "hindi": "एल्फा १"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Alpha 1"
+        ]
+    },
+    {
+        "id": 76,
+        "name": {
+            "english": "Anand Vihar",
+            "hindi": "आनंद विहार"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Anand Vihar ISBT",
+            "ISBT"
+        ]
+    },
+    {
+        "id": 255,
+        "name": {
+            "english": "Anand Vihar",
+            "hindi": "आनंद विहार"
+        },
+        "line": [
+            "Pink",
+            "Blue"
+        ],
+        "synonyms": [
+            "Anand Vihar ISBT",
+            "ISBT"
+        ]
+    },
+    {
+        "id": 135,
+        "name": {
+            "english": "Arjan Garh",
+            "hindi": "अर्जन गढ़"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Arjan Garh"
+        ]
+    },
+    {
+        "id": 143,
+        "name": {
+            "english": "Arthala",
+            "hindi": "अर्थला"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Arthala"
+        ]
+    },
+    {
+        "id": 171,
+        "name": {
+            "english": "Ashok Park Main",
+            "hindi": "अशोक पार्क मेन"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Ashok Park Main",
+            "Ashok Park"
+        ]
+    },
+    {
+        "id": 191,
+        "name": {
+            "english": "Ashok Park Main",
+            "hindi": "अशोक पार्क मेन"
+        },
+        "line": [
+            "Green",
+            "Green"
+        ],
+        "synonyms": [
+            "Ashok Park Main",
+            "Ashok Park"
+        ]
+    },
+    {
+        "id": 247,
+        "name": {
+            "english": "Ashram",
+            "hindi": "आश्रम"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Ashram"
+        ]
+    },
+    {
+        "id": 109,
+        "name": {
+            "english": "Azadpur",
+            "hindi": "आज़ादपुर"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Azadpur"
+        ]
+    },
+    {
+        "id": 229,
+        "name": {
+            "english": "Azadpur",
+            "hindi": "आजादपुर"
+        },
+        "line": [
+            "Pink",
+            "Yellow"
+        ],
+        "synonyms": [
+            "Azadpur"
+        ]
+    },
+    {
+        "id": 216,
+        "name": {
+            "english": "Badarpur",
+            "hindi": "बदरपुर"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Badarpur"
+        ]
+    },
+    {
+        "id": 221,
+        "name": {
+            "english": "Badkhal Mor",
+            "hindi": "बदखल मोर"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Badkhal Mor",
+            "Badhkal"
+        ]
+    },
+    {
+        "id": 189,
+        "name": {
+            "english": "Bahadurgarh City",
+            "hindi": "बहादुरगढ़ सिटी"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Bahadurgarh City",
+            "Bahadurgarh"
+        ]
+    },
+    {
+        "id": 41,
+        "name": {
+            "english": "Barakhambha Road",
+            "hindi": "बाराखम्भा मार्ग"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Barakhambha Road",
+            "Barakhambha",
+            "Barakhamba"
+        ]
+    },
+    {
+        "id": 224,
+        "name": {
+            "english": "Bata Chowk",
+            "hindi": "बाटा चौक"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Bata Chowk"
+        ]
+    },
+    {
+        "id": 241,
+        "name": {
+            "english": "Bhikaji Cama Place",
+            "hindi": "भीकाजी कामा प्लेस"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Bhikaji Cama Place",
+            "Bhikaji Cama"
+        ]
+    },
+    {
+        "id": 29,
+        "name": {
+            "english": "Botanical Garden",
+            "hindi": "बॉटानिकल गार्डन"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Botanical Garden"
+        ]
+    },
+    {
+        "id": 103,
+        "name": {
+            "english": "Botanical Garden",
+            "hindi": "बॉटैनिकल गार्डन"
+        },
+        "line": [
+            "Magenta",
+            "Blue"
+        ],
+        "synonyms": [
+            "Botanical Garden"
+        ]
+    },
+    {
+        "id": 190,
+        "name": {
+            "english": "Brigadier Hoshiyar Singh",
+            "hindi": "ब्रिगेडियर होशियार सिंह"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Brigadier Hoshiyar Singh",
+            "Hoshiyar Singh",
+            "Brigadier Singh"
+        ]
+    },
+    {
+        "id": 121,
+        "name": {
+            "english": "Central Secretariat",
+            "hindi": "केन्द्रीय सचिवालय"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Central Secretariat"
+        ]
+    },
+    {
+        "id": 201,
+        "name": {
+            "english": "Central Secretariat",
+            "hindi": "केंद्रीय सचिवालय"
+        },
+        "line": [
+            "Violet",
+            "Yellow"
+        ],
+        "synonyms": [
+            "Central Secretariat"
+        ]
+    },
+    {
+        "id": 116,
+        "name": {
+            "english": "Chandni Chowk",
+            "hindi": "चाँदनी चौक"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Chandni Chowk"
+        ]
+    },
+    {
+        "id": 117,
+        "name": {
+            "english": "Chawri Bazar",
+            "hindi": "चावड़ी बाजार"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Chawri Bazar"
+        ]
+    },
+    {
+        "id": 132,
+        "name": {
+            "english": "Chhatarpur",
+            "hindi": "छत्तरपुर"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Chhatarpur"
+        ]
+    },
+    {
+        "id": 92,
+        "name": {
+            "english": "Chirag Delhi",
+            "hindi": "चिराग दिल्ली"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Chirag Delhi",
+            "Chirag"
+        ]
+    },
+    {
+        "id": 114,
+        "name": {
+            "english": "Civil Lines",
+            "hindi": "सिविल लाइन्स"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Civil Lines"
+        ]
+    },
+    {
+        "id": 80,
+        "name": {
+            "english": "Dabri Mor-Janakpuri South",
+            "hindi": "डाबरी मोर"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Dabri Mor",
+            "Janakpuri South",
+            "Dabri"
+        ]
+    },
+    {
+        "id": 81,
+        "name": {
+            "english": "Dashrath Puri",
+            "hindi": "दशरथ पुरी"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Dashrath Puri",
+            "Dashrathpuri",
+            "Dashratpuri"
+        ]
+    },
+    {
+        "id": 269,
+        "name": {
+            "english": "Delhi Aerocity",
+            "hindi": "दिल्ली एरोसिटी"
+        },
+        "line": [
+            "Orange"
+        ],
+        "synonyms": [
+            "Delhi Aerocity",
+            "Aerocity"
+        ]
+    },
+    {
+        "id": 238,
+        "name": {
+            "english": "Delhi Cantonment",
+            "hindi": "दिल्ली छावनी"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Delhi Cantonment",
+            "Delhi Cantt",
+            "Cantonment",
+            "Cantt"
+        ]
+    },
+    {
+        "id": 197,
+        "name": {
+            "english": "Delhi Gate",
+            "hindi": "दिल्ली गेट"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Delhi Gate"
+        ]
+    },
+    {
+        "id": 18,
+        "name": {
+            "english": "Delta 1",
+            "hindi": "डेल्टा १"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Delta 1"
+        ]
+    },
+    {
+        "id": 20,
+        "name": {
+            "english": "Depot",
+            "hindi": "डिपो"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Depot"
+        ]
+    },
+    {
+        "id": 268,
+        "name": {
+            "english": "Dhaula Kuan",
+            "hindi": "धौला कुआँ"
+        },
+        "line": [
+            "Orange"
+        ],
+        "synonyms": [
+            "Dhaula Kuan"
+        ]
+    },
+    {
+        "id": 149,
+        "name": {
+            "english": "Dilshad Garden",
+            "hindi": "दिलशाद गार्डन"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Dilshad Garden"
+        ]
+    },
+    {
+        "id": 239,
+        "name": {
+            "english": "Durgabai Deshmukh South Campus",
+            "hindi": "दुर्गाबाई देशमुख साउथ कैम्पस"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Durgabai Deshmukh South Campus",
+            "Durgabai Dekhmukh",
+            "South Campus"
+        ]
+    },
+    {
+        "id": 62,
+        "name": {
+            "english": "Dwarka",
+            "hindi": "द्वारका"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka"
+        ]
+    },
+    {
+        "id": 61,
+        "name": {
+            "english": "Dwarka Mor",
+            "hindi": "द्वारका मोड़"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Mor"
+        ]
+    },
+    {
+        "id": 67,
+        "name": {
+            "english": "Dwarka Sector 10",
+            "hindi": "द्वारका सैक्टर १०"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 10"
+        ]
+    },
+    {
+        "id": 66,
+        "name": {
+            "english": "Dwarka Sector 11",
+            "hindi": "द्वारका सैक्टर ११"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 11"
+        ]
+    },
+    {
+        "id": 65,
+        "name": {
+            "english": "Dwarka Sector 12",
+            "hindi": "द्वारका सैक्टर १२"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 12"
+        ]
+    },
+    {
+        "id": 64,
+        "name": {
+            "english": "Dwarka Sector 13",
+            "hindi": "द्वारका सैक्टर १३"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 13"
+        ]
+    },
+    {
+        "id": 63,
+        "name": {
+            "english": "Dwarka Sector 14",
+            "hindi": "द्वारका सैक्टर १४"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 14"
+        ]
+    },
+    {
+        "id": 70,
+        "name": {
+            "english": "Dwarka Sector 21",
+            "hindi": "द्वारका सैक्टर २१"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 21"
+        ]
+    },
+    {
+        "id": 271,
+        "name": {
+            "english": "Dwarka Sector 21",
+            "hindi": "द्वारका सेक्टर २१"
+        },
+        "line": [
+            "Orange",
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 21"
+        ]
+    },
+    {
+        "id": 69,
+        "name": {
+            "english": "Dwarka Sector 8",
+            "hindi": "द्वारका सैक्टर ८"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 8"
+        ]
+    },
+    {
+        "id": 68,
+        "name": {
+            "english": "Dwarka Sector 9",
+            "hindi": "द्वारका सैक्टर ९"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Dwarka Sector 9"
+        ]
+    },
+    {
+        "id": 259,
+        "name": {
+            "english": "East Azad Nagar",
+            "hindi": "आजाद नगर पूर्व"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "East Azad Nagar",
+            "Azad Nagar East"
+        ]
+    },
+    {
+        "id": 252,
+        "name": {
+            "english": "East Vinod Nagar - Mayur Vihar-II",
+            "hindi": "पूर्वी विनोद नगर - मयूर विहार - II"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "East Vinod Nagar - Mayur Vihar-II"
+        ]
+    },
+    {
+        "id": 225,
+        "name": {
+            "english": "Escorts Mujesar",
+            "hindi": "एस्कॉर्ट्स मुजेसर"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Escorts Mujesar",
+            "Escorts"
+        ]
+    },
+    {
+        "id": 234,
+        "name": {
+            "english": "ESI Hospital",
+            "hindi": "ईएसआई अस्पताल"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "ESI Hospital",
+            "ESI Basaidarpur",
+            "ESI"
+        ]
+    },
+    {
+        "id": 222,
+        "name": {
+            "english": "Faridabad Old",
+            "hindi": "फरीदाबाद ओल्ड"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Faridabad Old"
+        ]
+    },
+    {
+        "id": 185,
+        "name": {
+            "english": "Ghevra Metro station",
+            "hindi": "घेवरा मेट्रो स्टेशन"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Ghevra Metro station"
+        ]
+    },
+    {
+        "id": 134,
+        "name": {
+            "english": "Ghitorni",
+            "hindi": "घिटोरनी"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Ghitorni"
+        ]
+    },
+    {
+        "id": 19,
+        "name": {
+            "english": "GNIDA Office",
+            "hindi": "ग्रेनो ऑफिस"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "GNIDA Office"
+        ]
+    },
+    {
+        "id": 263,
+        "name": {
+            "english": "Gokulpuri",
+            "hindi": "गोकुलपुरी"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Gokulpuri"
+        ]
+    },
+    {
+        "id": 28,
+        "name": {
+            "english": "Golf Course",
+            "hindi": "गोल्फ कोर्स"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Golf Course"
+        ]
+    },
+    {
+        "id": 210,
+        "name": {
+            "english": "Govind Puri",
+            "hindi": "गोविंद पुरी"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Govind Puri"
+        ]
+    },
+    {
+        "id": 93,
+        "name": {
+            "english": "Greater Kailash",
+            "hindi": "ग्रेटर कैलाश"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Greater Kailash"
+        ]
+    },
+    {
+        "id": 127,
+        "name": {
+            "english": "Green Park",
+            "hindi": "ग्रीन पार्क"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Green Park"
+        ]
+    },
+    {
+        "id": 111,
+        "name": {
+            "english": "GTB Nagar",
+            "hindi": "गुरु तेग बहादुर नगर"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "GTB Nagar",
+            "Guru Tegh Bahadur Nagar",
+            "GTB"
+        ]
+    },
+    {
+        "id": 136,
+        "name": {
+            "english": "Guru Dronacharya",
+            "hindi": "गुरु द्रोणाचार्य"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Guru Dronacharya",
+            "Dronacharya"
+        ]
+    },
+    {
+        "id": 106,
+        "name": {
+            "english": "Haiderpur",
+            "hindi": "हैदरपुर बादली मोड़"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Haiderpur",
+            "Badli Mor"
+        ]
+    },
+    {
+        "id": 211,
+        "name": {
+            "english": "Harkesh Nagar",
+            "hindi": "हरकेश नगर"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Harkesh Nagar"
+        ]
+    },
+    {
+        "id": 128,
+        "name": {
+            "english": "Hauz Khas",
+            "hindi": "हौज़ खास"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Hauz Khas"
+        ]
+    },
+    {
+        "id": 90,
+        "name": {
+            "english": "Hauz Khas",
+            "hindi": "हौज़ खास"
+        },
+        "line": [
+            "Magenta",
+            "Yellow"
+        ],
+        "synonyms": [
+            "Hauz Khas"
+        ]
+    },
+    {
+        "id": 248,
+        "name": {
+            "english": "Hazrat Nizamuddin",
+            "hindi": "सराय काले खान - निजामुद्दीन"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Hazrat Nizamuddin",
+            "Nizamuddin",
+            "Nizamuddin Station",
+            "Sarai Kale Khan"
+        ]
+    },
+    {
+        "id": 142,
+        "name": {
+            "english": "Hindon",
+            "hindi": "हिंडन"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Hindon"
+        ]
+    },
+    {
+        "id": 140,
+        "name": {
+            "english": "HUDA City Centre",
+            "hindi": "हुडा सिटी सैंटर"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "HUDA City Centre",
+            "HUDA"
+        ]
+    },
+    {
+        "id": 139,
+        "name": {
+            "english": "IFFCO Chowk",
+            "hindi": "इफ़्को चौक"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "IFFCO Chowk",
+            "IFFCO"
+        ]
+    },
+    {
+        "id": 89,
+        "name": {
+            "english": "IIT Delhi",
+            "hindi": "आईआईटी दिल्ली"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "IIT Delhi",
+            "IIT"
+        ]
+    },
+    {
+        "id": 243,
+        "name": {
+            "english": "INA",
+            "hindi": "आई एन ए"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "INA",
+            "I.N.A."
+        ]
+    },
+    {
+        "id": 125,
+        "name": {
+            "english": "INA",
+            "hindi": "आई.एन.ए"
+        },
+        "line": [
+            "Yellow",
+            "Pink"
+        ],
+        "synonyms": [
+            "INA",
+            "I.N.A."
+        ]
+    },
+    {
+        "id": 161,
+        "name": {
+            "english": "Inderlok",
+            "hindi": "इन्दरलोक"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Inderlok"
+        ]
+    },
+    {
+        "id": 170,
+        "name": {
+            "english": "Inderlok",
+            "hindi": "इंद्रलोक"
+        },
+        "line": [
+            "Green",
+            "Red"
+        ],
+        "synonyms": [
+            "Inderlok"
+        ]
+    },
+    {
+        "id": 38,
+        "name": {
+            "english": "Indraprastha",
+            "hindi": "इंद्रप्रस्थ"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Indraprastha"
+        ]
+    },
+    {
+        "id": 254,
+        "name": {
+            "english": "IP Extension",
+            "hindi": "आईपी एक्सटेंशन"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "IP Extension",
+            "I.P. Extension",
+            "Indraprastha Extension"
+        ]
+    },
+    {
+        "id": 198,
+        "name": {
+            "english": "ITO",
+            "hindi": "आईटीओ"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "ITO",
+            "I.T.O"
+        ]
+    },
+    {
+        "id": 261,
+        "name": {
+            "english": "Jaffrabad",
+            "hindi": "जाफराबाद"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Jaffrabad"
+        ]
+    },
+    {
+        "id": 107,
+        "name": {
+            "english": "Jahangirpuri",
+            "hindi": "जहाँगीरपुरी"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Jahangirpuri"
+        ]
+    },
+    {
+        "id": 196,
+        "name": {
+            "english": "Jama Masjid",
+            "hindi": "जामा मस्जिद"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Jama Masjid"
+        ]
+    },
+    {
+        "id": 98,
+        "name": {
+            "english": "Jamia Millia Islamia",
+            "hindi": "जामिया मिलिया इस्लामिया"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Jamia Millia Islamia",
+            "Jamia Millia"
+        ]
+    },
+    {
+        "id": 56,
+        "name": {
+            "english": "Janakpuri East",
+            "hindi": "जनकपुरी पूर्व"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Janakpuri East"
+        ]
+    },
+    {
+        "id": 79,
+        "name": {
+            "english": "Janakpuri West",
+            "hindi": "जनकपुरी पश्चिम"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Janakpuri West",
+            "Janakpuri"
+        ]
+    },
+    {
+        "id": 57,
+        "name": {
+            "english": "Janakpuri West",
+            "hindi": "जनकपुरी पश्चिम"
+        },
+        "line": [
+            "Blue",
+            "Magenta"
+        ],
+        "synonyms": [
+            "Janakpuri West",
+            "Janakpuri"
+        ]
+    },
+    {
+        "id": 204,
+        "name": {
+            "english": "Jangpura",
+            "hindi": "जंगपुरा"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Jangpura"
+        ]
+    },
+    {
+        "id": 200,
+        "name": {
+            "english": "Janpath",
+            "hindi": "जनपथ"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Janpath"
+        ]
+    },
+    {
+        "id": 212,
+        "name": {
+            "english": "Jasola Apollo",
+            "hindi": "जसोला अपोलो"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Jasola Apollo",
+            "Jasola",
+            "Apollo"
+        ]
+    },
+    {
+        "id": 100,
+        "name": {
+            "english": "Jasola Vihar Shaheen Bagh",
+            "hindi": "जसोला विहार शाहीन बाग"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Jasola Vihar Shaheen Bagh",
+            "Jasola Vihar",
+            "Shaheen Bagh"
+        ]
+    },
+    {
+        "id": 203,
+        "name": {
+            "english": "Jawaharlal Nehru Stadium",
+            "hindi": "जवाहर लाल नेहरू स्टेडियम"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Jawaharlal Nehru Stadium"
+        ]
+    },
+    {
+        "id": 44,
+        "name": {
+            "english": "Jhandewalan",
+            "hindi": "झंडेवालान"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Jhandewalan"
+        ]
+    },
+    {
+        "id": 150,
+        "name": {
+            "english": "Jhilmil",
+            "hindi": "झिलमिल कालोनी"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Jhilmil"
+        ]
+    },
+    {
+        "id": 264,
+        "name": {
+            "english": "Johri Enclave",
+            "hindi": "जौहरी एनक्लेव"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Johri Enclave"
+        ]
+    },
+    {
+        "id": 124,
+        "name": {
+            "english": "Jor Bagh",
+            "hindi": "जोर बाग़"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Jor Bagh",
+            "Jorbagh"
+        ]
+    },
+    {
+        "id": 207,
+        "name": {
+            "english": "Kailash Colony",
+            "hindi": "कैलाश कॉलोनी"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Kailash Colony"
+        ]
+    },
+    {
+        "id": 101,
+        "name": {
+            "english": "Kalindi Kunj",
+            "hindi": "कालिन्दी कुंज"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Kalindi Kunj"
+        ]
+    },
+    {
+        "id": 95,
+        "name": {
+            "english": "Kalkaji Mandir",
+            "hindi": "कालकाजी मंदिर"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Kalkaji Mandir"
+        ]
+    },
+    {
+        "id": 209,
+        "name": {
+            "english": "Kalkaji Mandir",
+            "hindi": "कालकाजी मंदिर"
+        },
+        "line": [
+            "Violet",
+            "Magenta"
+        ],
+        "synonyms": [
+            "Kalkaji Mandir"
+        ]
+    },
+    {
+        "id": 162,
+        "name": {
+            "english": "Kanhiya Nagar",
+            "hindi": "कन्हैया नगर"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Kanhiya Nagar"
+        ]
+    },
+    {
+        "id": 256,
+        "name": {
+            "english": "Karkarduma",
+            "hindi": "कड़कड़डूमा"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Karkarduma",
+            "Karkardooma"
+        ]
+    },
+    {
+        "id": 75,
+        "name": {
+            "english": "Karkarduma",
+            "hindi": "कड़कड़ डूमा"
+        },
+        "line": [
+            "Blue",
+            "Pink"
+        ],
+        "synonyms": [
+            "Karkarduma",
+            "Karkardooma"
+        ]
+    },
+    {
+        "id": 257,
+        "name": {
+            "english": "Karkarduma Court",
+            "hindi": "कड़कड़डूमा कोर्ट"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Karkarduma Court",
+            "Karkardooma Court"
+        ]
+    },
+    {
+        "id": 45,
+        "name": {
+            "english": "Karol Bagh",
+            "hindi": "क़रोल बाग़"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Karol Bagh"
+        ]
+    },
+    {
+        "id": 156,
+        "name": {
+            "english": "Kashmere Gate",
+            "hindi": "कश्मीरी गेट"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Kashmere Gate"
+        ]
+    },
+    {
+        "id": 194,
+        "name": {
+            "english": "Kashmere Gate",
+            "hindi": "कश्मीरी गेट"
+        },
+        "line": [
+            "Violet",
+            "Red"
+        ],
+        "synonyms": [
+            "Kashmere Gate"
+        ]
+    },
+    {
+        "id": 115,
+        "name": {
+            "english": "Kashmere Gate",
+            "hindi": "कश्मीरी गेट"
+        },
+        "line": [
+            "Yellow",
+            "Violet"
+        ],
+        "synonyms": [
+            "Kashmere Gate"
+        ]
+    },
+    {
+        "id": 77,
+        "name": {
+            "english": "Kaushambi",
+            "hindi": "कौशाम्बी"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Kaushambi"
+        ]
+    },
+    {
+        "id": 163,
+        "name": {
+            "english": "Keshav Puram",
+            "hindi": "केशव पुरम"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Keshav Puram"
+        ]
+    },
+    {
+        "id": 202,
+        "name": {
+            "english": "Khan Market",
+            "hindi": "खान बाजार"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Khan Market"
+        ]
+    },
+    {
+        "id": 193,
+        "name": {
+            "english": "Kirti Nagar",
+            "hindi": "कीर्ति नगर"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Kirti Nagar"
+        ]
+    },
+    {
+        "id": 49,
+        "name": {
+            "english": "Kirti Nagar",
+            "hindi": "कीर्ति नगर"
+        },
+        "line": [
+            "Blue",
+            "Green"
+        ],
+        "synonyms": [
+            "Kirti Nagar"
+        ]
+    },
+    {
+        "id": 15,
+        "name": {
+            "english": "Knowledge Park II",
+            "hindi": "नॉलेज पार्क II"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Knowledge Park II"
+        ]
+    },
+    {
+        "id": 165,
+        "name": {
+            "english": "Kohat Enclave",
+            "hindi": "कोहाट एन्क्लेव"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Kohat Enclave"
+        ]
+    },
+    {
+        "id": 258,
+        "name": {
+            "english": "Krishna Nagar",
+            "hindi": "कृष्णा नगर"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Krishna Nagar"
+        ]
+    },
+    {
+        "id": 205,
+        "name": {
+            "english": "Lajpat Nagar",
+            "hindi": "लाजपत नगर"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Lajpat Nagar"
+        ]
+    },
+    {
+        "id": 245,
+        "name": {
+            "english": "Lajpat Nagar",
+            "hindi": "लाजपत नगर"
+        },
+        "line": [
+            "Pink",
+            "Violet"
+        ],
+        "synonyms": [
+            "Lajpat Nagar"
+        ]
+    },
+    {
+        "id": 195,
+        "name": {
+            "english": "Lal Qila",
+            "hindi": "लाल किला"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Lal Qila"
+        ]
+    },
+    {
+        "id": 72,
+        "name": {
+            "english": "Laxmi Nagar",
+            "hindi": "लक्ष्मी नगर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Laxmi Nagar",
+            "Lakshmi Nagar"
+        ]
+    },
+    {
+        "id": 123,
+        "name": {
+            "english": "Lok Kalyan Marg",
+            "hindi": "लोक कल्याण मार्ग"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Lok Kalyan Marg",
+            "Lok Kalyan",
+            "Kalyan Marg"
+        ]
+    },
+    {
+        "id": 174,
+        "name": {
+            "english": "Madipur",
+            "hindi": "मादीपुर"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Madipur"
+        ]
+    },
+    {
+        "id": 228,
+        "name": {
+            "english": "Majlis Park",
+            "hindi": "मजलिस पार्क"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Majlis Park",
+            "Majlis"
+        ]
+    },
+    {
+        "id": 146,
+        "name": {
+            "english": "Major Mohit Sharma",
+            "hindi": "मे‌‌जर मोहित शर्मा"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Major Mohit Sharma",
+            "Major Sharma",
+            "Mohit Sharma"
+        ]
+    },
+    {
+        "id": 129,
+        "name": {
+            "english": "Malviya Nagar",
+            "hindi": "मालवीय नगर"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Malviya Nagar"
+        ]
+    },
+    {
+        "id": 253,
+        "name": {
+            "english": "Mandawali - West Vinod Nagar",
+            "hindi": "मंडावली- वेस्ट विनोद नगर"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Mandawali - West Vinod Nagar"
+        ]
+    },
+    {
+        "id": 40,
+        "name": {
+            "english": "Mandi House",
+            "hindi": "मंडी हाउस"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Mandi House"
+        ]
+    },
+    {
+        "id": 199,
+        "name": {
+            "english": "Mandi House",
+            "hindi": "मंडी हाउस"
+        },
+        "line": [
+            "Violet",
+            "Blue"
+        ],
+        "synonyms": [
+            "Mandi House"
+        ]
+    },
+    {
+        "id": 151,
+        "name": {
+            "english": "Mansarovar Park",
+            "hindi": "मानसरोवर पार्क"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Mansarovar Park",
+            "Mansarovar"
+        ]
+    },
+    {
+        "id": 262,
+        "name": {
+            "english": "Maujpur-Babarpur",
+            "hindi": "मौजपुर - बाबरपुर"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Maujpur-Babarpur",
+            "Maujpur",
+            "Babarpur"
+        ]
+    },
+    {
+        "id": 236,
+        "name": {
+            "english": "Mayapuri",
+            "hindi": "माया पुरी"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Mayapuri"
+        ]
+    },
+    {
+        "id": 35,
+        "name": {
+            "english": "Mayur Vihar – I",
+            "hindi": "मयूर विहार-१"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Mayur Vihar – I"
+        ]
+    },
+    {
+        "id": 249,
+        "name": {
+            "english": "Mayur Vihar – I",
+            "hindi": "मयूर विहार-१"
+        },
+        "line": [
+            "Pink",
+            "Blue"
+        ],
+        "synonyms": [
+            "Mayur Vihar – I"
+        ]
+    },
+    {
+        "id": 34,
+        "name": {
+            "english": "Mayur Vihar Extension",
+            "hindi": "मयूर विहार विस्तार"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Mayur Vihar Extension"
+        ]
+    },
+    {
+        "id": 250,
+        "name": {
+            "english": "Mayur Vihar Pocket I",
+            "hindi": "मयूर विहार पॉकेट 1"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Mayur Vihar Pocket I",
+            "Mayur Vihar Pocket 1"
+        ]
+    },
+    {
+        "id": 219,
+        "name": {
+            "english": "Mewala Maharajpur",
+            "hindi": "मेवला महाराजपुर"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Mewala Maharajpur",
+            "Mewala",
+            "Maharajpur"
+        ]
+    },
+    {
+        "id": 138,
+        "name": {
+            "english": "MG Road",
+            "hindi": "एम जी रोड"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "MG Road",
+            "Mahatma Gandhi Road"
+        ]
+    },
+    {
+        "id": 110,
+        "name": {
+            "english": "Model Town",
+            "hindi": "मॉडल टाउन"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Model Town"
+        ]
+    },
+    {
+        "id": 214,
+        "name": {
+            "english": "Mohan Estate",
+            "hindi": "मोहन एस्टेट"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Mohan Estate"
+        ]
+    },
+    {
+        "id": 144,
+        "name": {
+            "english": "Mohan Nagar",
+            "hindi": "मोहन नगर"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Mohan Nagar"
+        ]
+    },
+    {
+        "id": 206,
+        "name": {
+            "english": "Moolchand",
+            "hindi": "मूलचंद"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Moolchand"
+        ]
+    },
+    {
+        "id": 50,
+        "name": {
+            "english": "Moti Nagar",
+            "hindi": "मोती नगर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Moti Nagar"
+        ]
+    },
+    {
+        "id": 183,
+        "name": {
+            "english": "Mundka",
+            "hindi": "मुण्डका"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Mundka"
+        ]
+    },
+    {
+        "id": 184,
+        "name": {
+            "english": "Mundka Industrial Area",
+            "hindi": "मुण्डका औद्योगिक क्षेत्र"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Mundka Industrial Area",
+            "MIA",
+            "M.I.A"
+        ]
+    },
+    {
+        "id": 87,
+        "name": {
+            "english": "Munirka",
+            "hindi": "मुनिरका"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Munirka"
+        ]
+    },
+    {
+        "id": 180,
+        "name": {
+            "english": "Nangloi",
+            "hindi": "नांगलोई"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Nangloi"
+        ]
+    },
+    {
+        "id": 181,
+        "name": {
+            "english": "Nangloi Railway station",
+            "hindi": "नांगलोई रेलवे स्टेशन"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Nangloi Railway station"
+        ]
+    },
+    {
+        "id": 237,
+        "name": {
+            "english": "Naraina Vihar",
+            "hindi": "नारायणा विहार"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Naraina Vihar",
+            "Naraina"
+        ]
+    },
+    {
+        "id": 60,
+        "name": {
+            "english": "Nawada",
+            "hindi": "नवादा"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Nawada"
+        ]
+    },
+    {
+        "id": 223,
+        "name": {
+            "english": "Neelam Chowk Ajronda",
+            "hindi": "नीलम चौक अज्रोंडा"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Neelam Chowk Ajronda",
+            "Neelam Chowk",
+            "Ajronda"
+        ]
+    },
+    {
+        "id": 94,
+        "name": {
+            "english": "Nehru Enclave",
+            "hindi": "नेहरू एन्क्लेव"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Nehru Enclave"
+        ]
+    },
+    {
+        "id": 208,
+        "name": {
+            "english": "Nehru Place",
+            "hindi": "नेहरू प्लेस"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Nehru Place"
+        ]
+    },
+    {
+        "id": 164,
+        "name": {
+            "english": "Netaji Subhash Place",
+            "hindi": "नेताजी सुभाष प्लेस"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Netaji Subhash Place",
+            "NSP",
+            "N.S.P."
+        ]
+    },
+    {
+        "id": 231,
+        "name": {
+            "english": "Netaji Subhash Place",
+            "hindi": "नेताजी सुभाष प्लेस"
+        },
+        "line": [
+            "Pink",
+            "Red"
+        ],
+        "synonyms": [
+            "Netaji Subhash Place",
+            "NSP",
+            "N.S.P."
+        ]
+    },
+    {
+        "id": 33,
+        "name": {
+            "english": "New Ashok Nagar",
+            "hindi": "नया अशोक नगर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "New Ashok Nagar"
+        ]
+    },
+    {
+        "id": 118,
+        "name": {
+            "english": "New Delhi",
+            "hindi": "नई दिल्ली"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "New Delhi",
+            "New Delhi Railway Station",
+            "Delhi Railway Station",
+            "Railway Station"
+        ]
+    },
+    {
+        "id": 266,
+        "name": {
+            "english": "New Delhi",
+            "hindi": "नई दिल्ली"
+        },
+        "line": [
+            "Orange",
+            "Yellow"
+        ],
+        "synonyms": [
+            "New Delhi",
+            "New Delhi Railway Station",
+            "Delhi Railway Station",
+            "Railway Station"
+        ]
+    },
+    {
+        "id": 218,
+        "name": {
+            "english": "NHPC Chowk",
+            "hindi": "एनएचपीसी चौक"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "NHPC Chowk",
+            "NHPC"
+        ]
+    },
+    {
+        "id": 73,
+        "name": {
+            "english": "Nirman Vihar",
+            "hindi": "निर्माण विहार"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Nirman Vihar"
+        ]
+    },
+    {
+        "id": 27,
+        "name": {
+            "english": "Noida City Centre",
+            "hindi": "नोएडा सिटी सेंटर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida City Centre",
+            "Noida"
+        ]
+    },
+    {
+        "id": 21,
+        "name": {
+            "english": "Noida Electronic City",
+            "hindi": "नोएडा इलैक्ट्रौनिक सिटी"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Electronic City"
+        ]
+    },
+    {
+        "id": 3,
+        "name": {
+            "english": "Noida Sector 101",
+            "hindi": "नोएडा सेक्टर १०१"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 101"
+        ]
+    },
+    {
+        "id": 7,
+        "name": {
+            "english": "Noida Sector 137",
+            "hindi": "नोएडा सेक्टर १३७"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 137"
+        ]
+    },
+    {
+        "id": 8,
+        "name": {
+            "english": "Noida Sector 142",
+            "hindi": "नोएडा 4सेक्टर १४२"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 142"
+        ]
+    },
+    {
+        "id": 9,
+        "name": {
+            "english": "Noida Sector 143",
+            "hindi": "नोएडा सेक्टर 1४३"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 143"
+        ]
+    },
+    {
+        "id": 10,
+        "name": {
+            "english": "Noida Sector 144",
+            "hindi": "नोएडा सेक्टर १४४"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 144"
+        ]
+    },
+    {
+        "id": 11,
+        "name": {
+            "english": "Noida Sector 145",
+            "hindi": "नोएडा सेक्टर १४५"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 145"
+        ]
+    },
+    {
+        "id": 12,
+        "name": {
+            "english": "Noida Sector 146",
+            "hindi": "नोएडा सेक्टर १५३"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 146"
+        ]
+    },
+    {
+        "id": 13,
+        "name": {
+            "english": "Noida Sector 147",
+            "hindi": "नोएडा सेक्टर १४७"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 147"
+        ]
+    },
+    {
+        "id": 14,
+        "name": {
+            "english": "Noida Sector 148",
+            "hindi": "नोएडा सेक्टर १४८"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 148"
+        ]
+    },
+    {
+        "id": 32,
+        "name": {
+            "english": "Noida Sector 15",
+            "hindi": "नोएडा सेक्टर १५"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 15"
+        ]
+    },
+    {
+        "id": 31,
+        "name": {
+            "english": "Noida Sector 16",
+            "hindi": "नोएडा सेक्टर १६"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 16"
+        ]
+    },
+    {
+        "id": 30,
+        "name": {
+            "english": "Noida Sector 18",
+            "hindi": "नोएडा सेक्टर १८"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 18"
+        ]
+    },
+    {
+        "id": 26,
+        "name": {
+            "english": "Noida Sector 34",
+            "hindi": "नोएडा सेक्टर 34"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 34"
+        ]
+    },
+    {
+        "id": 1,
+        "name": {
+            "english": "Noida Sector 50",
+            "hindi": "नोएडा सेक्टर ५०"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 50"
+        ]
+    },
+    {
+        "id": 0,
+        "name": {
+            "english": "Noida Sector 51",
+            "hindi": "नोएडा सेक्टर ५१"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 51"
+        ]
+    },
+    {
+        "id": 25,
+        "name": {
+            "english": "Noida Sector 52",
+            "hindi": "नोएडा सेक्टर 52"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 52"
+        ]
+    },
+    {
+        "id": 23,
+        "name": {
+            "english": "Noida Sector 59",
+            "hindi": "नोएडा सेक्टर 59"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 59"
+        ]
+    },
+    {
+        "id": 24,
+        "name": {
+            "english": "Noida Sector 61",
+            "hindi": "नोएडा सेक्टर 61"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 61"
+        ]
+    },
+    {
+        "id": 22,
+        "name": {
+            "english": "Noida Sector 62",
+            "hindi": "नोएडा सेक्टर 62"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Noida Sector 62"
+        ]
+    },
+    {
+        "id": 2,
+        "name": {
+            "english": "Noida Sector 76",
+            "hindi": "नोएडा सेक्टर ७६"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 76"
+        ]
+    },
+    {
+        "id": 4,
+        "name": {
+            "english": "Noida Sector 81",
+            "hindi": "नोएडा सेक्टर ८१"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 81"
+        ]
+    },
+    {
+        "id": 6,
+        "name": {
+            "english": "Noida Sector 83",
+            "hindi": "नोएडा सेक्टर८३"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Noida Sector 83"
+        ]
+    },
+    {
+        "id": 5,
+        "name": {
+            "english": "NSEZ",
+            "hindi": "एन॰एस॰ई॰ज़ेड॰"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "NSEZ"
+        ]
+    },
+    {
+        "id": 102,
+        "name": {
+            "english": "Okhla Bird Sanctuary",
+            "hindi": "ओखला पक्षी अभयारण्य"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Okhla Bird Sanctuary",
+            "Bird Sanctuary"
+        ]
+    },
+    {
+        "id": 96,
+        "name": {
+            "english": "Okhla NSIC",
+            "hindi": "ओखला एन एस आई सी"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Okhla NSIC"
+        ]
+    },
+    {
+        "id": 99,
+        "name": {
+            "english": "Okhla Vihar",
+            "hindi": "ओखला विहार"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Okhla Vihar"
+        ]
+    },
+    {
+        "id": 82,
+        "name": {
+            "english": "Palam",
+            "hindi": "पालम"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Palam"
+        ]
+    },
+    {
+        "id": 91,
+        "name": {
+            "english": "Panchsheel Park",
+            "hindi": "पंचशील पार्क"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Panchsheel Park"
+        ]
+    },
+    {
+        "id": 188,
+        "name": {
+            "english": "Pandit Shree Ram Sharma",
+            "hindi": "पंडित श्री राम शर्मा"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Pandit Shree Ram Sharma",
+            "Shree Ram Sharma",
+            "Pandit Ram Sharma",
+            "Pandit Sharma",
+            "Pandit Ram",
+            "Shree Ram"
+        ]
+    },
+    {
+        "id": 16,
+        "name": {
+            "english": "Pari Chowk",
+            "hindi": "परी चौक"
+        },
+        "line": [
+            "Aqua"
+        ],
+        "synonyms": [
+            "Pari Chowk"
+        ]
+    },
+    {
+        "id": 175,
+        "name": {
+            "english": "Paschim Vihar East",
+            "hindi": "पश्चिम विहार पूर्व"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Paschim Vihar East"
+        ]
+    },
+    {
+        "id": 176,
+        "name": {
+            "english": "Paschim Vihar West",
+            "hindi": "पश्चिम विहार पश्चिम"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Paschim Vihar West"
+        ]
+    },
+    {
+        "id": 120,
+        "name": {
+            "english": "Patel Chowk",
+            "hindi": "पटेल चौक"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Patel Chowk"
+        ]
+    },
+    {
+        "id": 47,
+        "name": {
+            "english": "Patel Nagar",
+            "hindi": "पटेल नगर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Patel Nagar"
+        ]
+    },
+    {
+        "id": 177,
+        "name": {
+            "english": "Peera Garhi",
+            "hindi": "पीरागढ़ी"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Peera Garhi",
+            "Peeragarhi",
+            "Peeragari",
+            "Peeragadi"
+        ]
+    },
+    {
+        "id": 166,
+        "name": {
+            "english": "Pitam Pura",
+            "hindi": "पीतमपुरा"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Pitam Pura",
+            "Pitampura"
+        ]
+    },
+    {
+        "id": 39,
+        "name": {
+            "english": "Pragati Maidan",
+            "hindi": "प्रगति मैदान"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Pragati Maidan"
+        ]
+    },
+    {
+        "id": 159,
+        "name": {
+            "english": "Pratap Nagar",
+            "hindi": "प्रताप नगर"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Pratap Nagar"
+        ]
+    },
+    {
+        "id": 74,
+        "name": {
+            "english": "Preet Vihar",
+            "hindi": "प्रीत विहार"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Preet Vihar"
+        ]
+    },
+    {
+        "id": 158,
+        "name": {
+            "english": "Pul Bangash",
+            "hindi": "पुल बंगाश"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Pul Bangash"
+        ]
+    },
+    {
+        "id": 172,
+        "name": {
+            "english": "Punjabi Bagh",
+            "hindi": "पंजाबी बाग़"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Punjabi Bagh"
+        ]
+    },
+    {
+        "id": 233,
+        "name": {
+            "english": "Punjabi Bagh West",
+            "hindi": "पंजाबी बाग पश्चिम"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Punjabi Bagh West"
+        ]
+    },
+    {
+        "id": 131,
+        "name": {
+            "english": "Qutub Minar",
+            "hindi": "क़ुतुब मीनार"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Qutub Minar"
+        ]
+    },
+    {
+        "id": 88,
+        "name": {
+            "english": "R.K.Puram",
+            "hindi": "राम कृष्ण पुरम"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "R.K.Puram",
+            "RK Puram"
+        ]
+    },
+    {
+        "id": 147,
+        "name": {
+            "english": "Raj Bagh",
+            "hindi": "राज बाग"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Raj Bagh",
+            "Rajbagh"
+        ]
+    },
+    {
+        "id": 227,
+        "name": {
+            "english": "Raja Nahar Singh",
+            "hindi": "राजा नाहर सिंह (बल्लभगढ़)"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Raja Nahar Singh",
+            "Nahar Singh",
+            "Ballabhgarh"
+        ]
+    },
+    {
+        "id": 182,
+        "name": {
+            "english": "Rajdhani Park",
+            "hindi": "राजधानी पार्क"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Rajdhani Park"
+        ]
+    },
+    {
+        "id": 46,
+        "name": {
+            "english": "Rajendra Place",
+            "hindi": "राजेंद्र प्लेस"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Rajendra Place"
+        ]
+    },
+    {
+        "id": 119,
+        "name": {
+            "english": "Rajiv Chowk",
+            "hindi": "राजीव चौक"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Rajiv Chowk",
+            "Connaught Place",
+            "CP",
+            "C.P."
+        ]
+    },
+    {
+        "id": 42,
+        "name": {
+            "english": "Rajiv Chowk",
+            "hindi": "राजीव चौक"
+        },
+        "line": [
+            "Blue",
+            "Yellow"
+        ],
+        "synonyms": [
+            "Rajiv Chowk",
+            "Connaught Place",
+            "CP",
+            "C.P."
+        ]
+    },
+    {
+        "id": 235,
+        "name": {
+            "english": "Rajouri Garden",
+            "hindi": "राजौरी गार्डन"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Rajouri Garden"
+        ]
+    },
+    {
+        "id": 52,
+        "name": {
+            "english": "Rajouri Garden",
+            "hindi": "राजौरी गार्डन"
+        },
+        "line": [
+            "Blue",
+            "Pink"
+        ],
+        "synonyms": [
+            "Rajouri Garden"
+        ]
+    },
+    {
+        "id": 43,
+        "name": {
+            "english": "Ramakrishna Ashram Marg",
+            "hindi": "रामकृष्ण आश्रम मार्ग"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Ramakrishna Ashram Marg",
+            "Ramakrishna Marg",
+            "Ashram Marg"
+        ]
+    },
+    {
+        "id": 51,
+        "name": {
+            "english": "Ramesh Nagar",
+            "hindi": "रमेश नगर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Ramesh Nagar"
+        ]
+    },
+    {
+        "id": 169,
+        "name": {
+            "english": "Rithala",
+            "hindi": "रिठाला"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Rithala"
+        ]
+    },
+    {
+        "id": 167,
+        "name": {
+            "english": "Rohini East",
+            "hindi": "रोहिणी पूर्व"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Rohini East"
+        ]
+    },
+    {
+        "id": 105,
+        "name": {
+            "english": "Rohini Sector 18",
+            "hindi": "रोहिणी सेक्टर 18, 19"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Rohini Sector 18",
+            "Rohini Sector 19"
+        ]
+    },
+    {
+        "id": 168,
+        "name": {
+            "english": "Rohini West",
+            "hindi": "रोहिणी पश्चिम"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Rohini West"
+        ]
+    },
+    {
+        "id": 83,
+        "name": {
+            "english": "Sadar Bazaar Cantonment",
+            "hindi": "सदर बाजार छावनी"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Sadar Bazaar Cantonment",
+            "sadar Bazaar",
+            "Sadar Bazar",
+            "Sadar Bazar Cantonment",
+            "Sadar Bazaar Cantt",
+            "Sadar Bazar Cantt"
+        ]
+    },
+    {
+        "id": 130,
+        "name": {
+            "english": "Saket",
+            "hindi": "साकेत"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Saket"
+        ]
+    },
+    {
+        "id": 104,
+        "name": {
+            "english": "Samaypur Badli",
+            "hindi": "समयपुर बादली"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Samaypur Badli",
+            "Badli",
+            "Samaypur"
+        ]
+    },
+    {
+        "id": 226,
+        "name": {
+            "english": "Sant Surdas",
+            "hindi": "संत सूरदास - सिही (एनसीबी कॉलोनी - गुड ईयर)"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Sant Surdas",
+            "Surdas",
+            "Sihi",
+            "NCB Colony",
+            "Good Year"
+        ]
+    },
+    {
+        "id": 217,
+        "name": {
+            "english": "Sarai",
+            "hindi": "सराय"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Sarai"
+        ]
+    },
+    {
+        "id": 213,
+        "name": {
+            "english": "Sarita Vihar",
+            "hindi": "सरिता विहार"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Sarita Vihar"
+        ]
+    },
+    {
+        "id": 242,
+        "name": {
+            "english": "Sarojini Nagar",
+            "hindi": "सरोजिनी नगर"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Sarojini Nagar",
+            "Sarojini"
+        ]
+    },
+    {
+        "id": 192,
+        "name": {
+            "english": "Satguru Ram Singh Marg",
+            "hindi": "सतगुरु राम सिंह मार्ग"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Satguru Ram Singh Marg"
+        ]
+    },
+    {
+        "id": 220,
+        "name": {
+            "english": "Sector 28",
+            "hindi": "सेक्टर 28"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Sector 28"
+        ]
+    },
+    {
+        "id": 154,
+        "name": {
+            "english": "Seelampur",
+            "hindi": "सीलमपुर"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Seelampur"
+        ]
+    },
+    {
+        "id": 48,
+        "name": {
+            "english": "Shadipur",
+            "hindi": "शादीपुर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Shadipur"
+        ]
+    },
+    {
+        "id": 152,
+        "name": {
+            "english": "Shahdara",
+            "hindi": "शाहदरा"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Shahdara"
+        ]
+    },
+    {
+        "id": 148,
+        "name": {
+            "english": "Shaheed Nagar",
+            "hindi": "शहीद नगर"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Shaheed Nagar"
+        ]
+    },
+    {
+        "id": 141,
+        "name": {
+            "english": "Shaheed Sthal",
+            "hindi": "शहीद स्थल"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Shaheed Sthal"
+        ]
+    },
+    {
+        "id": 232,
+        "name": {
+            "english": "Shakurpur",
+            "hindi": "शकूरपुर"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Shakurpur"
+        ]
+    },
+    {
+        "id": 230,
+        "name": {
+            "english": "Shalimar Bagh",
+            "hindi": "शालीमार बाग"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Shalimar Bagh"
+        ]
+    },
+    {
+        "id": 85,
+        "name": {
+            "english": "Shankar Vihar",
+            "hindi": "शंकर विहार"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Shankar Vihar"
+        ]
+    },
+    {
+        "id": 160,
+        "name": {
+            "english": "Shastri Nagar",
+            "hindi": "शास्त्री नगर"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Shastri Nagar"
+        ]
+    },
+    {
+        "id": 155,
+        "name": {
+            "english": "Shastri Park",
+            "hindi": "शास्त्री पार्क"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Shastri Park"
+        ]
+    },
+    {
+        "id": 265,
+        "name": {
+            "english": "Shiv Vihar",
+            "hindi": "शिव विहार"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Shiv Vihar"
+        ]
+    },
+    {
+        "id": 173,
+        "name": {
+            "english": "Shivaji Park",
+            "hindi": "शिवाजी पार्क"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Shivaji Park"
+        ]
+    },
+    {
+        "id": 267,
+        "name": {
+            "english": "Shivaji Stadium",
+            "hindi": "शिवाजी स्टेडियम"
+        },
+        "line": [
+            "Orange"
+        ],
+        "synonyms": [
+            "Shivaji Stadium"
+        ]
+    },
+    {
+        "id": 145,
+        "name": {
+            "english": "Shyam park",
+            "hindi": "श्याम पार्क"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Shyam park"
+        ]
+    },
+    {
+        "id": 137,
+        "name": {
+            "english": "Sikandarpur",
+            "hindi": "सिकन्दरपुर"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Sikandarpur"
+        ]
+    },
+    {
+        "id": 240,
+        "name": {
+            "english": "Sir Vishweshwaraiah Moti Bagh",
+            "hindi": "सर विश्वेश्वरय्या मोती बाग"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Sir Vishweshwaraiah Moti Bagh",
+            "Moti Bagh"
+        ]
+    },
+    {
+        "id": 244,
+        "name": {
+            "english": "South Extension",
+            "hindi": "साउथ एक्सटेंशन"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "South Extension"
+        ]
+    },
+    {
+        "id": 54,
+        "name": {
+            "english": "Subhash Nagar",
+            "hindi": "सुभाष नगर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Subhash Nagar"
+        ]
+    },
+    {
+        "id": 97,
+        "name": {
+            "english": "Sukhdev Vihar",
+            "hindi": "सुखदेव विहार"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Sukhdev Vihar"
+        ]
+    },
+    {
+        "id": 133,
+        "name": {
+            "english": "Sultanpur",
+            "hindi": "सुल्तानपुर"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Sultanpur"
+        ]
+    },
+    {
+        "id": 179,
+        "name": {
+            "english": "Surajmal Stadium",
+            "hindi": "सूरजमल स्टेडियम"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Surajmal Stadium"
+        ]
+    },
+    {
+        "id": 53,
+        "name": {
+            "english": "Tagore Garden",
+            "hindi": "टैगोर गार्डन"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Tagore Garden"
+        ]
+    },
+    {
+        "id": 84,
+        "name": {
+            "english": "Terminal 1-IGI Airport",
+            "hindi": "टर्मिनल 1 इन्दिरा गाँधी अंतर्राष्ट्रीय हवाई अड्डा"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Terminal 1-IGI Airport",
+            "Terminal 1",
+            "IGI Airport T1",
+            "IGI Airport Terminal 1",
+            "Terminal 1 IGI Airport",
+            "Indira Gandhi International Airport Terminal 1",
+            "Indira Gandhi International Airport T1"
+        ]
+    },
+    {
+        "id": 187,
+        "name": {
+            "english": "Tikri Border",
+            "hindi": "टीकरी बॉर्डर"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Tikri Border"
+        ]
+    },
+    {
+        "id": 186,
+        "name": {
+            "english": "Tikri Kalan",
+            "hindi": "टीकरी कलाँ"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Tikri Kalan"
+        ]
+    },
+    {
+        "id": 55,
+        "name": {
+            "english": "Tilak Nagar",
+            "hindi": "तिलक नगर"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Tilak Nagar"
+        ]
+    },
+    {
+        "id": 157,
+        "name": {
+            "english": "Tis Hazari",
+            "hindi": "तीस हजारी"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Tis Hazari"
+        ]
+    },
+    {
+        "id": 251,
+        "name": {
+            "english": "Trilokpuri Sanjay Lake",
+            "hindi": "त्रिलोकपुरी संजय झील"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Trilokpuri Sanjay Lake",
+            "Trilokpuri",
+            "Sanjay Lake"
+        ]
+    },
+    {
+        "id": 215,
+        "name": {
+            "english": "Tughlakabad",
+            "hindi": "तुगलकाबाद"
+        },
+        "line": [
+            "Violet"
+        ],
+        "synonyms": [
+            "Tughlakabad"
+        ]
+    },
+    {
+        "id": 122,
+        "name": {
+            "english": "Udyog Bhawan",
+            "hindi": "उद्योग भवन"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Udyog Bhawan"
+        ]
+    },
+    {
+        "id": 178,
+        "name": {
+            "english": "Udyog Nagar",
+            "hindi": "उद्योग नगर"
+        },
+        "line": [
+            "Green"
+        ],
+        "synonyms": [
+            "Udyog Nagar"
+        ]
+    },
+    {
+        "id": 58,
+        "name": {
+            "english": "Uttam Nagar East",
+            "hindi": "उत्तम नगर पूर्व"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Uttam Nagar East"
+        ]
+    },
+    {
+        "id": 59,
+        "name": {
+            "english": "Uttam Nagar West",
+            "hindi": "उत्तम नगर पश्चिम"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Uttam Nagar West"
+        ]
+    },
+    {
+        "id": 78,
+        "name": {
+            "english": "Vaishali",
+            "hindi": "वैशाली"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Vaishali"
+        ]
+    },
+    {
+        "id": 86,
+        "name": {
+            "english": "Vasant Vihar",
+            "hindi": "वसन्त विहार"
+        },
+        "line": [
+            "Magenta"
+        ],
+        "synonyms": [
+            "Vasant Vihar"
+        ]
+    },
+    {
+        "id": 113,
+        "name": {
+            "english": "Vidhan Sabha",
+            "hindi": "विधान सभा"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Vidhan Sabha"
+        ]
+    },
+    {
+        "id": 246,
+        "name": {
+            "english": "Vinobapuri",
+            "hindi": "विनोबापुरी"
+        },
+        "line": [
+            "Pink"
+        ],
+        "synonyms": [
+            "Vinobapuri"
+        ]
+    },
+    {
+        "id": 112,
+        "name": {
+            "english": "Vishwa Vidyalaya",
+            "hindi": "विश्व विद्यालय"
+        },
+        "line": [
+            "Yellow"
+        ],
+        "synonyms": [
+            "Vishwa Vidyalaya",
+            "Vishwavidyalaya",
+            "North Campus"
+        ]
+    },
+    {
+        "id": 153,
+        "name": {
+            "english": "Welcome",
+            "hindi": "वेलकम"
+        },
+        "line": [
+            "Red"
+        ],
+        "synonyms": [
+            "Welcome"
+        ]
+    },
+    {
+        "id": 260,
+        "name": {
+            "english": "Welcome",
+            "hindi": "वेलकम"
+        },
+        "line": [
+            "Pink",
+            "Red"
+        ],
+        "synonyms": [
+            "Welcome"
+        ]
+    },
+    {
+        "id": 37,
+        "name": {
+            "english": "Yamuna Bank",
+            "hindi": "यमुना बैंक"
+        },
+        "line": [
+            "Blue"
+        ],
+        "synonyms": [
+            "Yamuna Bank"
+        ]
+    },
+    {
+        "id": 71,
+        "name": {
+            "english": "Yamuna Bank",
+            "hindi": "यमुना बैंक"
+        },
+        "line": [
+            "Blue",
+            "Blue"
+        ],
+        "synonyms": [
+            "Yamuna Bank"
+        ]
+    }
+]
